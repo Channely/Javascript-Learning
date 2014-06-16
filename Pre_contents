@@ -1,0 +1,41 @@
+JS-Base:
+
+注释符号
+数据类型 
+    1,简单数据(五种) null undefined string boolean number
+    2,复杂数据(一种) Object
+输出:console
+数字运算符
+逻辑术语
+真值表
+布尔表达式
+if判断
+else和if
+switch跳转
+for循环
+while循环
+break和continue
+
+代码形式:function 
+    1,定义式 
+    2,变量式
+    3,参数
+    4,返回值    
+js中的'类'和对象
+js中的作用域
+函数的对象化
+函数与对象的结合
+对象关键字:this
+怎样建立对象:JSON
+怎样构建对象:new
+
+原型:prototype
+原型继承
+原型拓展
+
+网页运行原理
+网页dom对象
+修饰dom对象
+响应dom事件
+
+AJAX
