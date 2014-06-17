@@ -14,15 +14,15 @@ echo "\033[32m local end \033[0m"
 
 #sync deploy project to another repos.
 echo "\033[33m sync code \033[0m"
-rm -rf ../Javascript-Learning-Deploy/*
-cp -rf PracticeProject/* ../Javascript-Learning-Deploy/
-cd ../Javascript-Learning-Deploy/
+rm -rf ../javascript_course_deploy/*
+cp -rf PracticeProject/* ../javascript_course_deploy/
+cd ../javascript_course_deploy/
 echo "\033[33m now pushing code another \033[0m"
 git add .
 git commit -m "${commit}"
 git pull --rebase
 git push
 echo "\033[32m another end \033[0m"
-cd ../Javascript-Learning/
+cd ../javascript_course/
 ls
 #end it.
