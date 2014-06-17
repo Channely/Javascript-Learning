@@ -3,11 +3,11 @@
         "show_name": "JS Base",
         "id_name":"jsBase",
         "desc": "Javascript起初作为给非程序人员的编程语言来推广,但它有着和其他编程语言一样或更甚的复杂性.实际上,你必需对JavaScript基础有扎实的理解才能用它来撰写比较复杂的程序.",
-//        "target_effect": {
-//            "name": "demo",
-//            "desc": "demo",
-//            "href": "/super_show/index.html"
-//        },
+        "target_effect": {
+            "name": "demo",
+            "desc": "demo",
+            "href": "/super_show/index.html"
+        },
         "order": 1,
         "ico": "images/javascript_logo.png",
         "title_ico": "images/Javascript.png"
