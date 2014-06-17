@@ -1,7 +1,7 @@
 {
     "basic": {
-        "show_name": "Javascript",
-        "id_name":"Javascript",
+        "show_name": "Javascript Base",
+        "id_name":"javascriptBase",
         "desc": "Javascript demo",
         "target_effect": {
             "name": "demo",
@@ -16,7 +16,7 @@
         "type":"path",
         "column":"_id",
         "index":{
-            "Javascript":"name"
+            "Javascript":"Javascript"
         }
     }
 }
