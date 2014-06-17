@@ -1,0 +1,24 @@
+{
+    "title": "DEMO",
+    "type": "topic",
+    "order": 0,
+    "desc": [
+        "DEMO代码如下：",
+        "\n\r\t\tconsole.log('demo content.')",
+        "DEMO代码如下：",
+        "\n\r\t\tconsole.log('demo content.')",
+        "DEMO",
+        "下面我们做个小练习"
+    ],
+    "code": "console.log('demo content.')",
+    "question": {
+        "content": "DEMO代码该如何编写呢？",
+        "options": ["var demo='demo'","var demo='DEMO'", "var demo='Demo'"]
+    },
+    "answer": {
+        "value": "var demo='Demo'",
+        "explains": [
+            "<p>DEM O123</p>"
+        ]
+    }
+}
