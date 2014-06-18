@@ -3,11 +3,11 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "注释符号.",
-    "desc": "- 注释符号.",
-    "step_desc": "- 注释符号",
-    "tips": "- 注释符号.",
-    "answer": "- 注释符号.",
+    "simple_desc": "我们可以添加注释来对 JavaScript 进行解释,禁用某些代码,或者提高代码的可读性.",
+    "desc": "- JavaScript 不会执行注释.我们可以添加注释来对 JavaScript 进行解释,禁用某些代码,或者提高代码的可读性.\n\r- 单行注释以 // 开头.如:\n\r``//console.log('我不会被执行')\n\r``console.log('我可以被执行')",
+    "step_desc": "- 给第二行代码添加单行注释,以禁用该行代码\n\r- 使输出\n\r``Hulu is \n\r``a cat",
+    "tips": "- 在需要被注释的单行代码前添加 // 符号,例如:\n\r``var my_name = 'Panada'\n\r- 注释后为:\n\r``//var my_name = 'Panada'",
+    "answer": "- 将代码修改成:\n\r``console.log('Tom is a ')\n\r``//console.log('lazy ')\n\r``console.log('cat')",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",
