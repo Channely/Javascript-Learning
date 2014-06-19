@@ -5,15 +5,15 @@
     "desc": [
         "';'分号在js代码中不是必需的,例如:",
         "\n\r\t\tvar name = 'Hulu';",
-        "\n\r\t\tvar age = 16;",
+        "\t\tvar age = 16;",
         "等价于:",
         "\n\r\t\tvar name = 'Hulu'",
-        "\n\r\t\tvar age = 16",
+        "\t\tvar age = 16",
         "但当多条语句写于一行时,必须加分号",
         "\n\r\t\tvar name = 'Hulu'; var age = 16",
         "语句之间必须以分号间隔"
     ],
-    "code": "console.log('demo content.')",
+    "code": "请回答:",
     "question": {
         "content": "下列哪种书写形式是没错误的?",
         "options": ["var name = 'Hulu'  var age = 16","var name = 'Hulu'; var age = 16", "var name = 'Hulu'  var age = 16;"]
