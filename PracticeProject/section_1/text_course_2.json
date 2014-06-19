@@ -14,7 +14,7 @@
         "\n\r\t\t//console.log('Line 1');\n\t\tconsole.log('Line 2');",
         "请回答:"
     ],
-    "code": "var today = '周四';\n\r//today = '周五';\n\rconsole.log(today);",
+    "code": "var today = '周四';\n//today = '周五';\nconsole.log(today);",
     "question": {
         "content": "上面代码的输出结果是?",
         "options": ["'周四'","  '周五'", "'today'"]
