@@ -4,7 +4,7 @@
     "order": 0,
     "desc": [
         "';'分号在js代码中不是必需的,例如:",
-        "\n\r\t\tvar name = 'Hulu';\t\tvar age = 16;",
+        "\n\r\t\tvar name = 'Hulu';\n\t\tvar age = 16;",
         "等价于:",
         "\n\r\t\tvar name = 'Hulu'",
         "\t\tvar age = 16",
