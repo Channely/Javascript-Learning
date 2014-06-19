@@ -9,19 +9,6 @@
         "[1]添加注释描述:",
         "\n\r\t\t/*\n\t\t这是在声明一个变量\n\t\t并给该变量赋值\n\t\t每行的句末分号可以略去不写\n\t\t*/\n\t\tvar phone;\n\t\tphone = '18732111111';",
         "[2]禁用某段代码(输出结果只有:'Line3'):",
-        "\n\r\t\t/*\n\t\tconsole.log('Line 1');\n\t\tconsole.log('Line 2');\n\t\t*/\n\t\tconsole.log('Line 3');",
-        "请回答:"
+        "\n\r\t\t/*\n\t\tconsole.log('Line 1');\n\t\tconsole.log('Line 2');\n\t\t*/\n\t\tconsole.log('Line 3');"
     ]
-//    ,
-//    "code": "var today = '周四';\ntoday = '周五';\nconsole.log(today);",
-//    "question": {
-//        "content": "将上面的代码全部注释掉,可以写成什么形式?",
-//        "options": ["/*\nvar today = '周四';\ntoday = '周五';\n*/\nconsole.log(today);","//var today = '周四';\n//today = '周五';\n//console.log(today);", "//var today = '周四';\n//today = '周五';\nconsole.log(today);"]
-//    },
-//    "answer": {
-//        "value": "//var today = '周四';\n//today = '周五';\n//console.log(today);",
-//        "explains": [
-//            "<p>虽然答案中使用的是单行注释,但是单行注释把每一行代码都注释了.</p><p>达到了问题要求.剩下的两个答案没有把三行代码完全注释掉.</p>"
-//        ]
-//    }
 }
