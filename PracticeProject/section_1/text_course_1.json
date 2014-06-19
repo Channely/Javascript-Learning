@@ -1,24 +1,27 @@
 {
-    "title": "DEMO",
+    "title": "句末分号",
     "type": "topic",
     "order": 0,
     "desc": [
-        "DEMO代码如下：",
-        "\n\r\t\tconsole.log('demo content.')",
-        "DEMO代码如下：",
-        "\n\r\t\tconsole.log('demo content.')",
-        "DEMO",
-        "下面我们做个小练习"
+        "';'分号在js代码中不是必需的,例如:",
+        "\n\r\t\tvar name = 'Hulu';",
+        "\n\r\t\tvar age = 16;",
+        "等价于:",
+        "\n\r\t\tvar name = 'Hulu'",
+        "\n\r\t\tvar age = 16",
+        "但当多条语句写于一行时,必须加分号",
+        "\n\r\t\tvar name = 'Hulu'; var age = 16",
+        "语句之间必须以分号间隔"
     ],
     "code": "console.log('demo content.')",
     "question": {
-        "content": "DEMO代码该如何编写呢？",
-        "options": ["var demo='demo'","var demo='DEMO'", "var demo='Demo'"]
+        "content": "下列哪种书写形式是没错误的?",
+        "options": ["var name = 'Hulu'  var age = 16","var name = 'Hulu'; var age = 16", "var name = 'Hulu'  var age = 16;"]
     },
     "answer": {
-        "value": "var demo='Demo'",
+        "value": "var name = 'Hulu'; var age = 16",
         "explains": [
-            "<p>DEM O123</p>"
+            "<p>JS中分号的存在是为了在一行中<strong>分割多条语句</strong>.</p>"
         ]
     }
 }
