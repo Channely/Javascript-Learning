@@ -14,10 +14,10 @@
     "code": "请回答:",
     "question": {
         "content": "下列哪种书写形式是没错误的?",
-        "options": ["var name = 'Hulu'  var age = 16","var name = 'Hulu'; var age = 16", "var name = 'Hulu'  var age = 16;"]
+        "options": ["var name = 'Hulu'  var age = 16","var name = 'Hulu'; var age = 16;", "var name = 'Hulu'  var age = 16;"]
     },
     "answer": {
-        "value": "var name = 'Hulu'; var age = 16",
+        "value": "var name = 'Hulu'; var age = 16;",
         "explains": [
             "<p>JS中分号的存在是为了在一行中<strong>分割多条语句</strong>.</p>"
         ]
