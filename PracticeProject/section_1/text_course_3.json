@@ -18,7 +18,7 @@
         "options": ["/*\nvar today = '周四';\ntoday = '周五';\n*/\nconsole.log(today);","//var today = '周四';\n//today = '周五';\n//console.log(today);", "//var today = '周四';\n//today = '周五';\nconsole.log(today);"]
     },
     "answer": {
-        "value": "//var today = '周四';\n//today = '周五';\n//console.log(today);",
+        "value": "//var today = '周四';\n\r//today = '周五';\n\r//console.log(today);",
         "explains": [
             "<p>虽然答案中使用的是单行注释,但是单行注释把每一行代码都注释了.</p><p>达到了问题要求.剩下的两个答案没有把三行代码完全注释掉.</p>"
         ]
