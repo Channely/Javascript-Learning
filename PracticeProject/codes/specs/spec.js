@@ -3,33 +3,28 @@ var
         '注释符号': function () {
             send_result_by(catch_the_spec_error_of(index_1))
         },
-        '容器': function () {
-            send_result_by(catch_the_spec_error_of(index_2_1))
+        '': function () {
+            send_result_by(catch_the_spec_error_of(index_2))
         },
-        '背景区块': function () {
-            send_result_by(catch_the_spec_error_of(index_2_2))
-        },
-        '栅格系统': function () {
-            send_result_by(catch_the_spec_error_of(index_2_3))
-        },
-        '文字排版': function () {
+        '': function () {
             send_result_by(catch_the_spec_error_of(index_3))
         },
-        '按钮': function () {
+        '': function () {
             send_result_by(catch_the_spec_error_of(index_4))
         },
-        '图标': function () {
+        '': function () {
             send_result_by(catch_the_spec_error_of(index_5))
         },
-        '列表': function () {
+        '': function () {
             send_result_by(catch_the_spec_error_of(index_6))
         }
     }
 
 function index_1() {
+    console.log(my_name)
     return typeof(my_name) == 'string' && my_name != "";
 }
-function index_2_1() {
+function index_2() {
     return true;
 }
 function index_3() {
