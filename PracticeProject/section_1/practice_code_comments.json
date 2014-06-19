@@ -4,7 +4,7 @@
     "point": 200,
 
     "simple_desc": "我们可以添加注释来对 JavaScript 进行解释,禁用某些代码,或者提高代码的可读性.",
-    "desc": "- JavaScript不会执行注释.我们可以添加注释来对JavaScript进行解释,禁用某些代码,或者提高代码的可读性.\n\r- 单行注释以 // 开头.如:\n\r\t\t//console.log('我不会被执行')\n\r\tconsole.log('我可以被执行')",
+    "desc": "- JavaScript不会执行注释.我们可以添加注释来对JavaScript进行解释,禁用某些代码,或者提高代码的可读性.\n\r- 单行注释以 // 开头.如:\n\r\t\t//console.log('我不会被执行')\n\t\tconsole.log('我可以被执行')",
     "step_desc": "- 按照编辑器中注释代码的提示完成任务\n\r\t\t<button class='btn btn-default'>123</button>",
     "tips": "- 如:\n\r\t\tvar my_name = 'Jimi';\n\r- 作用是\n\r- 1,声明一个变量 my_name\n\r- 2,给该变量赋值为字符串'Jimi'",
     "answer": "- 将第二行\n\r\t\tvar my_name = '';\n\r- 改为\n\r\t\tvar my_name = 'Jimi';",
