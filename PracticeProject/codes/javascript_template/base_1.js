@@ -1,3 +1,3 @@
-console.log('Tom is a ');
-console.log('lazy ');
-console.log('cat');
+//在第二行的引号中输入你的名字,然后点击"保存并提交"按钮,进入下一关.
+var my_name = "";
+console.log('welcome ' + my_name + '!'); //你将会在结果展示页看到本行代码的输出
