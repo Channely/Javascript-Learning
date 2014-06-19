@@ -7,7 +7,7 @@
         "我们可以添加注释来对 JavaScript 进行解释,以提高代码的可读性.或者我们可以注释掉某段代码,帮助我们调试程序.",
         "多行注释以 /* 开始，以 */ 结尾.例如:",
         "[1]添加注释描述:",
-        "\n\r\t\t/*\n\t\t这是在声明一个变量\n\t\t并给该变量赋值\n\t\t每行的句末分号可以略去不写\n\t\t*/\n\t\tvar phone;\n\t\tphone = '18732111111';\n\t\tvar phone = '18732111111';",
+        "\n\r\t\t/*\n\t\t这是在声明一个变量\n\t\t并给该变量赋值\n\t\t每行的句末分号可以略去不写\n\t\t*/\n\t\tvar phone;\n\t\tphone = '18732111111';",
         "[2]禁用某段代码(输出结果只有:'Line3'):",
         "\n\r\t\t/*\n\t\tconsole.log('Line 1');\n\t\tconsole.log('Line 2');\n\t\t*/\n\t\tconsole.log('Line 3');",
         "请回答:"
@@ -18,7 +18,7 @@
         "options": ["/*\nvar today = '周四';\ntoday = '周五';\n*/\nconsole.log(today);","//var today = '周四';\n//today = '周五';\n//console.log(today);", "//var today = '周四';\n//today = '周五';\nconsole.log(today);"]
     },
     "answer": {
-        "value": "//var today = '周四';\n\r//today = '周五';\n\r//console.log(today);",
+        "value": "//var today = '周四';\n//today = '周五';\n//console.log(today);",
         "explains": [
             "<p>虽然答案中使用的是单行注释,但是单行注释把每一行代码都注释了.</p><p>达到了问题要求.剩下的两个答案没有把三行代码完全注释掉.</p>"
         ]
