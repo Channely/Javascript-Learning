@@ -4,10 +4,10 @@
     "point": 200,
 
     "simple_desc": "我们可以添加注释来对 JavaScript 进行解释,禁用某些代码,或者提高代码的可读性.",
-    "desc": "- JavaScript不会执行注释.我们可以添加注释来对JavaScript进行解释,禁用某些代码,或者提高代码的可读性.\n\r- 单行注释以 // 开头.如:\n\r\t\t//console.log('我不会被执行')\n\t\tconsole.log('我可以被执行')",
-    "step_desc": "- 按照编辑器中注释代码的提示完成任务\n\r\t\t<button class='btn btn-default'>123</button>",
-    "tips": "- 如:\n\r\t\tvar my_name = 'Jimi';\n\r- 作用是\n\r- 1,声明一个变量 my_name\n\r- 2,给该变量赋值为字符串'Jimi'",
-    "answer": "- 将第二行\n\r\t\tvar my_name = '';\n\r- 改为\n\r\t\tvar my_name = 'Jimi';",
+    "desc": "- 本节我们学习了如何在console控制台中输出一段字符.\n\r- 右侧的编辑器中给出了日志输出的函数:\n\r\t\tconsole.log();\n\r- 请补齐代码,使提交后在效果预览的窗口中显示字符 \n\r\t\tHello World!",
+    "step_desc": "- 在console.log()的括号中添加字符串 'Hello World!'\n\r\t\t然后点击 保存并提交 按钮以查看运行结果.",
+    "tips": "- 将\n\r\t\tconsole.log();\n\r- 修改成\n\r\t\tconsole.log('Hello World!');",
+    "answer": "- 将\n\r\t\tconsole.log();\n\r- 修改成\n\r\t\tconsole.log('Hello World!');",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",
