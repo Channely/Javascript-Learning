@@ -12,7 +12,7 @@
     ],
     "code": "请回答:",
     "question": {
-        "content": "下列选项中哪一项不是字符串的正确书写格式?",
+        "content": "下列选项中哪一项是字符串的正确书写格式?",
         "options": ["''阿Q'","'Hello!'", "World"]
     },
     "answer": {
