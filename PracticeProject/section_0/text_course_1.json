@@ -1,25 +1,24 @@
 {
-    "title": "句末分号",
+    "title": "字符串简介",
     "type": "topic",
     "order": 0,
     "desc": [
-        "' ; '分号在js代码中不是必需的,例如:",
-        "\n\r\t\tvar name = 'Hulu';\n\t\tvar age = 16;",
-        "等价于:",
-        "\n\r\t\tvar name = 'Hulu'\n\t\tvar age = 16",
-        "但当多条语句写于一行时(如下),必须加分号",
-        "\n\r\t\tvar name = 'Hulu'; var age = 16",
-        "同一行代码中,语句之间必须以分号间隔."
+        "字符串(String)是存储字符(比如 'China')的载体.",
+        "字符串可以是带有引号的任意文本.引号可以使用单引号或双引号,如:",
+        "\n\r\t\t''China''",
+        "\n\r\t\t'呼噜'",
+        "\n\r\t\t''123''",
+        "其中,引号可以使用单引号也可使用双引号,但必须成对出现."
     ],
     "code": "请回答:",
     "question": {
-        "content": "下列哪种书写形式是没错误的?",
-        "options": ["var name = 'Hulu'  var age = 16","var name = 'Hulu'; var age = 16;", "var name = 'Hulu'  var age = 16;"]
+        "content": "下列选项中哪一项不是字符串的正确书写格式?",
+        "options": ["''阿Q'","'Hello!'", "World"]
     },
     "answer": {
-        "value": "var name = 'Hulu'; var age = 16;",
+        "value": "'Hello!'",
         "explains": [
-            "<p>JS中分号的存在是为了在一行中<strong>分割多条语句</strong>.</p>"
+            "<p>World 没有被引号包围,阿Q 没有被成对的引号包围,固都不是字符串.Hello! <strong>被单引号包围,且引号内有文本内容</strong>,所以是一个字符串.</p>"
         ]
     }
 }

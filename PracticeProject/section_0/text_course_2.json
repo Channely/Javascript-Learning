@@ -1,28 +1,24 @@
 {
-    "title": "注释 - 单行注释",
+    "title": "日志输出",
     "type": "topic",
     "order": 1,
     "desc": [
-        "JavaScript 不会执行注释.",
-        "我们可以添加注释来对 JavaScript 进行解释,以提高代码的可读性.或者我们可以注释掉某段代码,帮助我们调试程序.",
-        "单行注释以 // 开头.例如:",
-        "[1]添加注释描述:",
-        "\n\r\t\t//这是在声明一个变量并给该变量赋值\n\t\tvar phone = '18732111111';",
-        "或者可以写成",
-        "\n\r\t\tvar phone = '18732111111';   //这是在声明一个变量并给该变量赋值",
-        "[2]禁用某行代码(输出结果是:'Line2'):",
-        "\n\r\t\t//console.log('Line 1');\n\t\tconsole.log('Line 2');",
+        "我们的js代码运行时往往会有一定的数据产生,js运行时的数据如何被我们知晓呢?js的console控制台就是一个让我们与js代码交互的地方.",
+        "如果想让js在console控制台输出一段信息,我们需要用到js自带的console.log()函数.",
+        "它的作用是在console中输出.log()中括号内的内容,如:",
+        "\n\r\t\tconsole.log('javascript');",
+        "运行后将会在console中实时输出字符 javascript .",
         "请回答:"
     ],
-    "code": "var today = '周四';\n//today = '周五';\nconsole.log(today);",
+    "code": "console.log('Sunday');",
     "question": {
-        "content": "上面代码的输出结果是?",
-        "options": ["'周四'","  '周五'", "'today'"]
+        "content": "上面代码在控制台console中的输出结果是?",
+        "options": ["Sunday","String", "'Sunday'"]
     },
     "answer": {
-        "value": "'周四'",
+        "value": "'Sunday",
         "explains": [
-            "<p>代码块中首先定义了一个变量today,并给该变量赋值为'周四'.</p><p>然后没有执行给变量today赋值'周五'的语句,此后today的值依然是'周四'.</p><p>最后在控制台(console)中输出(log)变量today的值'周四'.</p>"
+            "<p>在控制台输出字符串的结果是该字符串引号内的字符,不包含引号.且输出的是字符本身(javascript),而不是字符的类型(String).</p>"
         ]
     }
 }
