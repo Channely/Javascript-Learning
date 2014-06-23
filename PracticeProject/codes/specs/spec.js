@@ -1,6 +1,6 @@
 var
     send_signal_by_testing_result_of = {
-        'HelloWorld': function () {
+        '第一个程序': function () {
             send_result_by(catch_the_spec_error_of(index_0))
         },
         '注释符号': function () {
@@ -24,7 +24,7 @@ var
     }
 
 function index_0() {
-    console.log('HelloWorld')
+    console.log('Hello World!')
     return true;
 }
 function index_1() {
