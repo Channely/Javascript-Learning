@@ -1,5 +1,8 @@
 var
     send_signal_by_testing_result_of = {
+        'HelloWorld': function () {
+            send_result_by(catch_the_spec_error_of(index_0))
+        },
         '注释符号': function () {
             send_result_by(catch_the_spec_error_of(index_1))
         },
@@ -20,6 +23,10 @@ var
         }
     }
 
+function index_0() {
+    console.log('HelloWorld')
+    return true;
+}
 function index_1() {
     console.log(my_name)
     return typeof(my_name) == 'string' && my_name != "";

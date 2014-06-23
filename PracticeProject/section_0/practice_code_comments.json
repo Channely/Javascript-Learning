@@ -1,5 +1,5 @@
 {
-    "name": "注释符号",
+    "name": "HelloWorld",
     "type": "normal",
     "point": 200,
 
@@ -13,13 +13,13 @@
     "specs_dir": "/specs",
     "files": [
         {
-            "name": "base_1.js",
+            "name": "base_0.js",
             "path": "/javascript_template/"
         }
     ],
     "spec": {
-        "name": "index_1.html",
+        "name": "index_0.html",
         "path": "/javascript_template/"
     },
-    "order": 1
+    "order": 0
 }
