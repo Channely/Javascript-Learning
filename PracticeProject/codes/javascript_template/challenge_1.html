@@ -22,8 +22,6 @@
 </head>
 <body>
 <button class="btn btn-info btn-large btn-block">JS console</button>
-<!--<input class="form-control" placeholder="code here . . .">-->
-<div id="target"></div>
 <script>
     console.log = function (arg) {
         var color;
@@ -47,7 +45,7 @@
                 color = "#000000";
                 break;
         }
-        document.write("<p style='color: " + color + "'>" + arg + "</p>");
+        document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
     };
     </script>
     <script src="js/jquery.min.js"></script>
