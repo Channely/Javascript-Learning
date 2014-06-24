@@ -21,19 +21,34 @@
     <![endif]-->
 </head>
 <body>
-    <button class="btn btn-info btn-large btn-block">JS console</button>
-    <br>
-    <br>
-    <br>
-    <input class="form-control" placeholder="code here . . .">
-    <script>
-        function display(info){
-            document.write(info);
+<button class="btn btn-info btn-large btn-block">JS console</button>
+<!--<input class="form-control" placeholder="code here . . .">-->
+<div id="target"></div>
+<script>
+    console.log = function (arg) {
+        var color;
+        switch (typeof(arg)) {
+            case "undefined":
+                color = "dimgray";
+                break;
+            case "object":
+                arg == null ? color = "dimgray" : color = "#000000";
+                break;
+            case "number":
+                color = "darkblue";
+                break;
+            case "string":
+                color = "#000000";
+                break;
+            case "boolean":
+                color = "#000000";
+                break;
+            case "function":
+                color = "#000000";
+                break;
         }
-        var console = {};
-        console.log = function (arg) {
-            display(arg)
-        };
+        document.write("<p style='color: " + color + "'>" + arg + "</p>");
+    };
     </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
