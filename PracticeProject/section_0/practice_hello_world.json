@@ -18,8 +18,6 @@
         }
     ],
     "spec": {
-//        "type": "terminal",
-//        "src": "browser",
         "name": "challenge_0.html",
         "path": "/javascript_template/"
     },
