@@ -22,36 +22,71 @@
 </head>
 <body>
 <button class="btn btn-info btn-large btn-block">JS console</button>
-<input class="form-control" placeholder="code here . . .">
-<div id="target"></div>
+<input class="form-control" type="text" id="target" placeholder="code here . . .">
+<div id="bind"></div>
 <script>
     console.log = function (arg) {
         var color;
+        var dimgray = "dimgray";
+        var black = "#000000";
+        var darkblue = "darkblue";
         switch (typeof(arg)) {
             case "undefined":
-                color = "dimgray";
+                color = dimgray;
                 break;
             case "object":
-                arg == null ? color = "dimgray" : color = "#000000";
+                color = arg == null ? dimgray : black;
                 break;
             case "number":
-                color = "darkblue";
+                color = darkblue;
                 break;
             case "string":
-                color = "#000000";
+                color = black;
                 break;
             case "boolean":
-                color = "#000000";
+                color = black;
                 break;
             case "function":
-                color = "#000000";
+                color = black;
                 break;
         }
-        document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
+        append_log_node(arg,color)
     };
+    function run(codes){
+        try  {
+            console.log(eval(codes));
+        }
+        catch(exception) {
+            console.log(exception);
+        }
+        append_underline_node()
+    }
+
+    function append_log_node(info,color) {
+        var log=document.createElement("H4");
+        log.innerHTML=info
+        log.setAttribute("style","padding:5px 15px 5px 15px;color:"+ color);
+        document.getElementById('bind').appendChild(log);
+    }
+    function append_underline_node(){
+        var br = document.createElement("HR");
+        document.getElementById('bind').appendChild(br);
+    }
 </script>
 <script src="../javascript_template/js/jquery.min.js"></script>
 <script src="../javascript_template/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        $(document).keypress(function(e){
+            var curKey = e.which;
+            if(curKey == 13)
+            {
+                run($("#target").val());
+            }
+        });
+    });
+</script>
 </body>
 </html>
 
