@@ -4,10 +4,10 @@
     "order": 2,
     "desc": [
         "如果想在js的console控制台输出字符:",
-        "\n\r\t\tJS Base",
+        "\n\r\t\tJS Basic",
         "我们的实现代码是:",
-        "\n\r\t\tconsole.log('JS Base');",
+        "\n\r\t\tconsole.log('JS Basic');",
         "或",
-        "\n\r\t\tconsole.log(''JS Base'');"
+        "\n\r\t\tconsole.log(\"JS Basic\");"
     ]
 }

@@ -3,22 +3,22 @@
     "type": "topic",
     "order": 0,
     "desc": [
-        "字符串(String)是存储字符(比如 'China')的载体.",
-        "字符串可以是带有引号的任意文本,如:",
-        "\n\r\t\t''China''",
-        "\n\r\t\t'呼噜'",
-        "\n\r\t\t''123''",
-        "其中,引号可以使用单引号也可使用双引号,但必须成对出现."
+        "根据我们程序猿界的传统，每学一门语言，先要写一个\"Hello World\"。我们这次学习JavaScript（简写“js”）也不例外。我们从这里开始我们的学习旅程。",
+        "说到\"Hello World\"必然要说字符串，\"Hello World\"就是一个字符串。那么字符串是什么呢？",
+        "字符串(String)就是存储字符的载体，字符串可以是带有引号的任意文本。引号可以使用单引号或双引号,下面我们看几个例子:",
+        "\n\r\t\t\"Hello World\"\n\r\t\t'世界，你好'\n\r\t\t'Hello World,1946'",
+        "其中，引号可以使用单引号也可使用双引号,但必须成对出现。",
+        "下面我们看一个小练习："
     ],
-    "code": "请回答:",
+    "code": "",
     "question": {
         "content": "下列选项中哪一项是字符串的正确书写格式?",
-        "options": ["''阿Q'","'Hello!'", "World"]
+        "options": ["\"Hi\'","\'Hello!\'", "Hello World"]
     },
     "answer": {
-        "value": "'Hello!'",
+        "value": "\'Hello!\'",
         "explains": [
-            "<p>World 没有被引号包围,阿Q 没有被成对的引号包围,固都不是字符串.Hello! <strong>被引号包围,且引号内有文本内容</strong>,所以是一个字符串.</p>"
+            "<p>Hello World 没有被引号包围,Hi 没有被成对的引号包围,固都不是字符串。Hello! <strong>被引号包围,且引号内有文本内容</strong>,所以是一个字符串.</p>"
         ]
     }
 }
