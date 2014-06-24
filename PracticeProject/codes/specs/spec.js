@@ -24,11 +24,11 @@ var
     }
 
 function index_0() {
-    console.log('Hello World!')
+    console.info('Hello World!')
     return true;
 }
 function index_1() {
-    console.log(name)
+    console.info(name)
     return typeof(name) == 'string' && name != "";
 }
 function index_2() {
@@ -62,7 +62,7 @@ function catch_the_spec_error_of(code_block) {
         var result = code_block()
         return result;
     } catch (err) {
-        console.log('SPEC ERROR:' + err.description)
+        console.info('SPEC ERROR:' + err.description)
         return false;
     }
 }
