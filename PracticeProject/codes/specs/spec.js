@@ -43,7 +43,7 @@ function index_4() {
 function index_5() {
     return true
 }
-function index_6(){
+function index_6() {
     return true
 }
 
@@ -59,7 +59,7 @@ function send_result_by(result) {
 }
 function catch_the_spec_error_of(code_block) {
     try {
-        var result =  code_block()
+        var result = code_block()
         return result;
     } catch (err) {
         console.log('SPEC ERROR:' + err.description)
