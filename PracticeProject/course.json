@@ -10,7 +10,8 @@
         },
         "order": 1,
         "ico": "/images/JS.PNG",
-        "title_ico": "/images/Javascript.png"
+        "title_ico": "/images/Javascript.png",
+        "version": "1.0"
     },
     "relevance":{
         "type":"path",
