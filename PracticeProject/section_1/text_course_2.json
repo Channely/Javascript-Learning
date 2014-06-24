@@ -10,19 +10,19 @@
         "\n\r\t\t//这是在声明一个变量并给该变量赋值\n\t\tvar phone = '18732111111';",
         "或者可以写成",
         "\n\r\t\tvar phone = '18732111111';   //这是在声明一个变量并给该变量赋值",
-        "[2]禁用某行代码(输出结果是:'Line2'):",
+        "[2]禁用某行代码(输出结果是: Line2 ):",
         "\n\r\t\t//console.log('Line 1');\n\t\tconsole.log('Line 2');",
         "请回答:"
     ],
     "code": "var today = '周四';\n//today = '周五';\nconsole.log(today);",
     "question": {
         "content": "上面代码的输出结果是?",
-        "options": ["'周四'","  '周五'", "'today'"]
+        "options": ["周四","周五", "today"]
     },
     "answer": {
-        "value": "'周四'",
+        "value": "周四",
         "explains": [
-            "<p>代码块中首先定义了一个变量today,并给该变量赋值为'周四'.</p><p>然后没有执行给变量today赋值'周五'的语句,此后today的值依然是'周四'.</p><p>最后在控制台(console)中输出(log)变量today的值'周四'.</p>"
+            "<p>代码块中首先定义了一个变量today,并给该变量赋值为'周四'.</p><p>然后没有执行给变量today赋值'周五'的语句,此后today的值依然是'周四'.</p><p>最后在控制台(console)中输出(log)变量today的值 周四 .</p>"
         ]
     }
 }

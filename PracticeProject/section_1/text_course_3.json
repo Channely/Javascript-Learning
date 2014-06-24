@@ -8,7 +8,7 @@
         "多行注释以 /* 开始，以 */ 结尾.例如:",
         "[1]添加注释描述:",
         "\n\r\t\t/*\n\t\t这是在声明一个变量\n\t\t并给该变量赋值\n\t\t每行的句末分号可以略去不写\n\t\t*/\n\t\tvar phone;\n\t\tphone = '18732111111';",
-        "[2]禁用某段代码(输出结果只有:'Line3'):",
+        "[2]禁用某段代码(输出结果只有: Line3 ):",
         "\n\r\t\t/*\n\t\tconsole.log('Line 1');\n\t\tconsole.log('Line 2');\n\t\t*/\n\t\tconsole.log('Line 3');"
     ]
 }

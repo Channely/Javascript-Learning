@@ -28,8 +28,8 @@ function index_0() {
     return true;
 }
 function index_1() {
-    console.log(my_name)
-    return typeof(my_name) == 'string' && my_name != "";
+    console.log(name)
+    return typeof(name) == 'string' && name != "";
 }
 function index_2() {
     return true;
