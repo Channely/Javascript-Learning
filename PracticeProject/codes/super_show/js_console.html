@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JS Base Console Page</title>
+    <title>JS console</title>
 
     <!-- Bootstrap -->
-    <link href="../javascript_template/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../javascript_template/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Icon -->
     <link rel="shortcut icon" href="favicon.png">
@@ -22,23 +22,23 @@
 </head>
 <body>
 <button class="btn btn-info btn-large btn-block">JS console</button>
-<input class="form-control" type="text" id="target" placeholder="code here . . .">
+<input class="form-control" type="text" id="target" autofocus="true" placeholder="Code here, Enter to run . . .">
 <div id="bind"></div>
 <script>
     console.log = function (arg) {
         var color;
-        var dimgray = "dimgray";
+        var gray = "gray";
         var black = "#000000";
-        var darkblue = "darkblue";
+        var blue = "darkblue";
         switch (typeof(arg)) {
             case "undefined":
-                color = dimgray;
+                color = gray;
                 break;
             case "object":
-                color = arg == null ? dimgray : black;
+                color = arg == null ? gray : black;
                 break;
             case "number":
-                color = darkblue;
+                color = blue;
                 break;
             case "string":
                 color = black;
@@ -73,8 +73,8 @@
         document.getElementById('bind').appendChild(br);
     }
 </script>
-<script src="../javascript_template/js/jquery.min.js"></script>
-<script src="../javascript_template/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function()
     {
@@ -83,6 +83,7 @@
             if(curKey == 13)
             {
                 run($("#target").val());
+		$("#target").val("");
             }
         });
     });
