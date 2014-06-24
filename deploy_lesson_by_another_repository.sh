@@ -1,7 +1,12 @@
 #!/bin/sh
-#get the commit content by user input
-echo "\033[33m Please input the commit words : \033[0m"
-read commit
+#get the commit content by user input if not initialed before.
+if ${#commit}>1
+then
+    echo "\033[34m commit exist!! \033[0m"
+else
+    echo "\033[33m Please input the commit words : \033[0m"
+    read commit
+fi
 echo "\033[34m Content:'$commit' \033[0m"
 
 #push code change on this respo.
