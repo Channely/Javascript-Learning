@@ -23,11 +23,13 @@
 <body>
 <button class="btn btn-info btn-large btn-block">JS console</button>
 <br>
+<br>
+<br>
 <div id="target"></div>
 <input class="form-control" placeholder="code here . . .">
 <script>
     function display(info){
-        document.getElementById('target').nodeValue = info;
+        document.write(info);
     }
     var console = {};
     console.log = function (arg) {

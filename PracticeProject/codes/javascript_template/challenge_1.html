@@ -26,7 +26,15 @@
     <br>
     <br>
     <input class="form-control" placeholder="code here . . .">
-
+    <script>
+        function display(info){
+            document.write(info);
+        }
+        var console = {};
+        console.log = function (arg) {
+            display(arg)
+        };
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="challenge_1.js"></script>
