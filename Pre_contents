@@ -1,10 +1,10 @@
 JS-Base:
 
+输出:console
 注释符号
 数据类型 
     1,简单数据(五种) null undefined string boolean number
-    2,复杂数据(一种) Object
-输出:console
+    2,复杂数据(两种) Array Object
 数字运算符
 逻辑术语
 真值表

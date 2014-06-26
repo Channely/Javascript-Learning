@@ -49,9 +49,11 @@ function index_6() {
 
 //================logic method=======================
 function pass_game() {
+//    parent.report(true,"Success!")
     source.postMessage(true, "http://" + window.location.host)
 }
 function unpass_game() {
+//    parent.report(true,"Unfortunate!")
     source.postMessage(false, "http://" + window.location.host)
 }
 function send_result_by(result) {

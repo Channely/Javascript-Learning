@@ -1,0 +1,25 @@
+{
+    "name": "简单数据",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "simple desc",
+    "desc": "- desc",
+    "step_desc": "- step desc",
+    "tips": "- tips",
+    "answer": "- answer",
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "challenge_2_1.js",
+            "path": "/javascript_template/"
+        }
+    ],
+    "spec": {
+        "name": "challenge_2_1.html",
+        "path": "/javascript_template/"
+    },
+    "order": 0
+}
