@@ -6,11 +6,11 @@ var
         '注释符号': function () {
             send_result_by(catch_the_spec_error_of(index_1))
         },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_2))
+        '简单数据': function () {
+            send_result_by(catch_the_spec_error_of(index_2_1))
         },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_3))
+        '复杂数据': function () {
+            send_result_by(catch_the_spec_error_of(index_2_2))
         },
         '': function () {
             send_result_by(catch_the_spec_error_of(index_4))
@@ -31,10 +31,10 @@ function index_1() {
     console.info(name)
     return typeof(name) == 'string' && name != "";
 }
-function index_2() {
+function index_2_1() {
     return true;
 }
-function index_3() {
+function index_2_2() {
     return true
 }
 function index_4() {
