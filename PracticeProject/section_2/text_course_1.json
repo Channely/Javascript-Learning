@@ -18,7 +18,8 @@
         "typeof(data) 返回值是字符串 'number' ,即变量data的数据类型是 数字.",
         "srting : 前面我们说起过,字符串是字符的载体,而且必须被成对的引号包围. 如: 'hello world!'",
         "\n\r\t\tvar data = 'hello world!';",
-        "typeof(data) 返回值是字符串 'string' ,即变量data的数据类型是 字符串."
+        "typeof(data) 返回值是字符串 'string' ,即变量data的数据类型是 字符串.",
+        "请回答:"
     ],
     "code": "var data = typeof(123);",
     "question": {

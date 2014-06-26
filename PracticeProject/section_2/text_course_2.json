@@ -3,26 +3,27 @@
     "type": "topic",
     "order": 1,
     "desc": [
-        "JavaScript 不会执行注释.",
-        "我们可以添加注释来对 JavaScript 进行解释,以提高代码的可读性.或者我们可以注释掉某段代码,帮助我们调试程序.",
-        "单行注释以 // 开头.例如:",
-        "[1]添加注释描述:",
-        "\n\r\t\t//这是在声明一个变量并给该变量赋值\n\t\tvar phone = '18732111111';",
-        "或者可以写成",
-        "\n\r\t\tvar phone = '18732111111';   //这是在声明一个变量并给该变量赋值",
-        "[2]禁用某行代码(输出结果是: Line2 ):",
-        "\n\r\t\t//console.log('Line 1');\n\t\tconsole.log('Line 2');",
+        "对象由花括号包围.在括号内部,属性以名称和值对的形式  name : value  来定义.属性间由逗号分隔.例如:",
+        "var student={name:'Tom', finish_work:true, id:123};",
+        "上面例子中的对象 (student) 有三个属性：name、finish_work 以及 id.",
+        "空格和属性间的换行无关紧要.例如可以写成:",
+        "\n\r\t\tvar student = {\n\t\tname          : 'Tom',\n\t\tfinish_work : true,\n\t\tid                : 123\n\t\t};",
+        "对象属性有两种获取方式:",
+        "\n\r\t\tname = student.name;",
+        "或",
+        "\n\r\t\tname = student['name'];",
+        "都可以将'Tom'取出来赋给name.",
         "请回答:"
     ],
-    "code": "var today = '周四';\n//today = '周五';\nconsole.log(today);",
+    "code": "var phone = {zone : '010', number : '12345678'};\nvar phone_number = phone['zone'] + phone.number;\nconsole.log(phone_number);",
     "question": {
-        "content": "上面代码的输出结果是?",
-        "options": ["周四","周五", "today"]
+        "content": "上面代码执行后,控制台(console)的输出结果是?",
+        "options": ["'01012345678'","'010'", "'12345678'"]
     },
     "answer": {
-        "value": "周四",
+        "value": "'01012345678'",
         "explains": [
-            "<p>代码块中首先定义了一个变量today,并给该变量赋值为'周四'.</p><p>然后没有执行给变量today赋值'周五'的语句,此后today的值依然是'周四'.</p><p>最后在控制台(console)中输出(log)变量today的值 周四 .</p>"
+            "<p>phone['zone']取出phone对象中zone属性对应的值'010',phone.number取出phone对象中number对应的值'12345678',最后结果为'010'+'12345678',通过加号将两段字符串拼接成一个'01012345678',最终赋给变量phone_number在console中输出出来.</p>"
         ]
     }
 }
