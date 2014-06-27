@@ -32,7 +32,14 @@ function index_1() {
     return typeof(name) == 'string' && name != "";
 }
 function index_2_1() {
-    return true;
+    var data = profile;
+    var v_1 = typeof data['姓名'] === 'string';
+    var v_2 = typeof data['学校'] === 'string';
+    var v_3 = typeof data['学号'] === 'number';
+    var v_4 = typeof data['专业'] === 'string';
+    var v_5 = typeof logs[0] === 'number';
+    console.info(v_1 && v_2 && v_3 && v_4 && v_5);
+    return v_1 && v_2 && v_3 && v_4 && v_5;
 }
 function index_2_2() {
     return true
