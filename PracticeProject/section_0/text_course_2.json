@@ -2,6 +2,7 @@
     "title": "日志输出",
     "type": "topic",
     "order": 1,
+    "desc_file": true,
     "desc": [
         "我们的js代码运行时往往会有一定的数据产生,js运行时的数据如何被我们知晓呢?js的console控制台就是一个让我们与js代码交互的地方.",
         "如果想让js在console控制台输出一段信息,我们需要用到js自带的console.log()函数.",
@@ -17,8 +18,9 @@
     },
     "answer": {
         "value": "Sunday",
+        "explain_file": true,
         "explains": [
-            "<p>在控制台输出字符串的结果是/该字符串引号内的字符,不包含引号.且输出的是字符本身(javascript),而不是字符的类型(String).</p>"
+            "<p>在控制台输出字符串的结果是该字符串引号内的字符,不包含引号.且输出的是字符本身(javascript),而不是字符的类型(String).</p>"
         ]
     }
 }
