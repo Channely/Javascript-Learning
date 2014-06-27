@@ -2,7 +2,14 @@
     "title": "demo",
     "type": "text",
     "order": 2,
-    "desc": [
-        "demo."
-    ]
+    "desc_file": true,
+    "code": "demo",
+    "question": {
+        "content": "demo?",
+        "options": ["demo1","demo2", "demo3"]
+    },
+    "answer": {
+        "value": "demo1",
+        "explain_file": true
+    }
 }
