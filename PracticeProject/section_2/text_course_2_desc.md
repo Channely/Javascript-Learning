@@ -9,9 +9,9 @@ javascript中的复杂数据类型只有一种,即 对象(object).
 空格和属性间的换行无关紧要.例如可以写成:
 
     var student = {
-        name        : 'Tom',
+        name          : 'Tom',
         finish_work : true,
-        id          : 123
+        id                : 123
     };
 
 对象属性有两种获取方式:
