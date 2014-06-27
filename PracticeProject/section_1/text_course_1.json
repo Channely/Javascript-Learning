@@ -2,15 +2,7 @@
     "title": "句末分号",
     "type": "topic",
     "order": 0,
-    "desc": [
-        "' ; '分号在js代码中不是必需的,例如:",
-        "\n\r\t\tvar name = 'Tom';\n\t\tvar age = 16;",
-        "等价于:",
-        "\n\r\t\tvar name = 'Tom'\n\t\tvar age = 16",
-        "但当多条语句写于一行时(如下),必须加分号",
-        "\n\r\t\tvar name = 'Tom'; var age = 16",
-        "同一行代码中,语句之间必须以分号间隔."
-    ],
+    "desc_file": true,
     "code": "请回答:",
     "question": {
         "content": "下列哪种书写形式是没错误的?",
@@ -18,8 +10,6 @@
     },
     "answer": {
         "value": "var name = 'Tom'; var age = 16;",
-        "explains": [
-            "<p>JS中分号的存在是为了在一行中<strong>分割多条语句</strong>.</p>"
-        ]
+        "explain_file": true
     }
 }

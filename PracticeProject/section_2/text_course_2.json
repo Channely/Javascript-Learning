@@ -19,10 +19,10 @@
     "code": "var phone = {zone : '010', number : '12345678'};\nvar phone_number = phone['zone'] + phone.number;\nconsole.log(phone_number);",
     "question": {
         "content": "上面代码执行后,控制台(console)的输出结果是?",
-        "options": ["'01012345678'","'010'", "'12345678'"]
+        "options": ["01012345678","010", "12345678"]
     },
     "answer": {
-        "value": "'01012345678'",
+        "value": "01012345678",
         "explains": [
             "<p>phone['zone']取出phone对象中zone属性对应的值'010',</p><p>phone.number取出phone对象中number对应的值'12345678',</p><p>最后结果为'010'+'12345678',通过加号将两段字符串拼接成一个'01012345678',</p><p>最终赋给变量phone_number在console中输出出来.</p>"
         ]

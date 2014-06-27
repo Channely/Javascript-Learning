@@ -2,13 +2,5 @@
     "title": "注释 - 多行注释",
     "type": "text",
     "order": 2,
-    "desc": [
-        "JavaScript 不会执行注释.",
-        "我们可以添加注释来对 JavaScript 进行解释,以提高代码的可读性.或者我们可以注释掉某段代码,帮助我们调试程序.",
-        "多行注释以 /* 开始，以 */ 结尾.例如:",
-        "[1]添加注释描述:",
-        "\n\r\t\t/*\n\t\t这是在声明一个变量\n\t\t并给该变量赋值\n\t\t每行的句末分号可以略去不写\n\t\t*/\n\t\tvar phone;\n\t\tphone = '01012345678';",
-        "[2]禁用某段代码(输出结果只有: Line3 ):",
-        "\n\r\t\t/*\n\t\tconsole.log('Line 1');\n\t\tconsole.log('Line 2');\n\t\t*/\n\t\tconsole.log('Line 3');"
-    ]
+    "desc_file": true
 }
