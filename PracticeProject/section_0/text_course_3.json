@@ -2,14 +2,5 @@
     "title": "总结",
     "type": "text",
     "order": 2,
-    "desc": [
-        "如果想在js的console控制台输出字符:",
-        "\n\r\t\tHello World",
-        "我们的实现代码是:",
-        "\n\r\t\tconsole.log('Hello World');",
-        "或",
-        "\n\r\t\tconsole.log(\"Hello World\");",
-        "到这里我们就完成了一个js最简单的'Hello World'的程序，这为我们开启了js的大门，接下来我们会学习到更多的知识。"
-
-    ]
+    "desc_file": true
 }
