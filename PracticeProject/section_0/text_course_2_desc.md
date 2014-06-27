@@ -4,7 +4,7 @@
 
 它的作用是在console中输出.log()中括号内的内容,如:
 
-    tconsole.log('Hello World');
+    console.log('Hello World');
 
 运行后将会在console中实时输出字符 Hello World .
 
