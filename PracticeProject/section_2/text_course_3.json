@@ -1,15 +1,16 @@
 {
-    "title": "demo",
+    "title": "特殊的对象 - 数组(array)",
     "type": "text",
     "order": 2,
     "desc_file": true,
     "code": "demo",
     "question": {
-        "content": "demo?",
-        "options": ["demo1","demo2", "demo3"]
+        "content": "那么,如果要取出数组courses中的数据'Biology',可以用?",
+        "options": ["courses[1]","courses[2]", "courses[3]"]
     },
     "answer": {
-        "value": "demo1",
+        "value": "courses[2]",
         "explain_file": true
     }
+
 }
