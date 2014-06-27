@@ -1,10 +1,10 @@
 {
-    "title": "注释 - 单行注释",
+    "title": "复杂数据类型(一种)",
     "type": "topic",
     "order": 1,
     "desc": [
         "对象由花括号包围.在括号内部,属性以名称和值对的形式  name : value  来定义.属性间由逗号分隔.例如:",
-        "var student={name:'Tom', finish_work:true, id:123};",
+        "\n\r\t\tvar student={name:'Tom', finish_work:true, id:123};",
         "上面例子中的对象 (student) 有三个属性：name、finish_work 以及 id.",
         "空格和属性间的换行无关紧要.例如可以写成:",
         "\n\r\t\tvar student = {\n\t\tname          : 'Tom',\n\t\tfinish_work : true,\n\t\tid                : 123\n\t\t};",
@@ -12,7 +12,7 @@
         "\n\r\t\tname = student.name;",
         "或",
         "\n\r\t\tname = student['name'];",
-        "都可以将'Tom'取出来赋给name.",
+        "都可以将'Tom'取出来赋给变量name.",
         "请回答:"
     ],
     "code": "var phone = {zone : '010', number : '12345678'};\nvar phone_number = phone['zone'] + phone.number;\nconsole.log(phone_number);",
@@ -23,7 +23,7 @@
     "answer": {
         "value": "'01012345678'",
         "explains": [
-            "<p>phone['zone']取出phone对象中zone属性对应的值'010',phone.number取出phone对象中number对应的值'12345678',最后结果为'010'+'12345678',通过加号将两段字符串拼接成一个'01012345678',最终赋给变量phone_number在console中输出出来.</p>"
+            "<p>phone['zone']取出phone对象中zone属性对应的值'010',</p><p>phone.number取出phone对象中number对应的值'12345678',</p><p>最后结果为'010'+'12345678',通过加号将两段字符串拼接成一个'01012345678',</p><p>最终赋给变量phone_number在console中输出出来.</p>"
         ]
     }
 }
