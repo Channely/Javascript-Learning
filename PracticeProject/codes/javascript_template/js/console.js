@@ -26,7 +26,7 @@ console.log = function (arg) {
     }
     if(count>=0){
         logs[count] = arg;
-        count++;
         document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
     }
+    count++;
 };
