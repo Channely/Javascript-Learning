@@ -24,7 +24,9 @@ console.log = function (arg) {
             color = "#000000";
             break;
     }
-    logs[count] = arg;
-    count++;
-    document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
+    if(count>=0){
+        logs[count] = arg;
+        count++;
+        document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
+    }
 };
