@@ -44,6 +44,9 @@ function index_2_1() {
 function index_2_2() {
       var object_data = profile;
       var array_data = my_profile;
+      console.info(JSON.stringify(profile));
+      console.info(JSON.stringify(my_profile));
+      
       
       var v_1 = my_profile[0] === profile["姓名"];
       var v_2 = my_profile[1] === profile["学校"];
@@ -55,6 +58,11 @@ function index_2_2() {
       var v_5_3 = log_message.search(profile["学号"]);
       var v_5_4 = log_message.search(profile["专业"]);
       var v_5 = v_5_1 < v_5_2 < v_5_4 < v_5_3
+      console.info(v_1);
+      console.info(v_2);
+      console.info(v_3);
+      console.info(v_4);
+      console.info(v_5);
       console.info(v_1 && v_2 && v_3 && v_4 && v_5);
       return v_1 && v_2 && v_3 && v_4 && v_5;
 }
