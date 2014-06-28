@@ -4,10 +4,10 @@
     "point": 200,
 
     "simple_desc": "javascript中的数据均是六种数据类型undefined,null,number,boolean,string,object中的一种,别的再没有其他类型了.",
-    "desc": "- 前面说过,编程世界只有数据和代码两种元素.\n\r- 在本节的练习内容中,我们要将自己的一些个人信息编写为一个javascript对象.\n\r- 对象的属性包括'姓名','学校','学号','专业',\n\r- 其中'学号'属性值的类型为数字(number),并在console中输出学号的值.",
-    "step_desc": "- 将编辑器中定义个人信息的代码补全,注意所写数据值的类型.\n\r- 然后点击提交按钮查看运行结果.",
-    "tips": "- 分别给第二三五行的'姓名','学校','专业'属性添加对应字符串类型的值.\n\r- 给第三行'学号'属性添加对应数字类型的值.",
-    "answer": "- 将1-6行修改成如下形式的代码:\n\r\tvar profile = {\n\r\t\t'姓名' :        ,\n\r\t\t'学校' :        ,\n\r\t\t'学号' :        ,\n\r\t\t'专业' :        \n\r\t\t};",
+    "desc": "- 上一小节中,我们将自己的部分个人信息组织成了一个对象(object)格式的数据.\n\r- 本节我们将尝试着取出给对象内的数据,并将这些数据组织成一个比对象更简洁的数据形式 - **数组**\n\r- 数组和对象的区别是\n\r- [1]数组两端由方括号包围,而不是对象两端的花括号.\n\r- [2]数组内的数据是一个个独立的值(value),由逗号隔开,而不是对象中的键值对形式( key:value).\n\r- 例如\n\r\t\t//数组\n\r\t\tvar courses = [\"Maths\",\"Chinese\"]\n\r\t\t//对象\n\r\t\tvar grade = {Maths:82,Chinese:79}",
+    "step_desc": "- 按照第六行注释的要求,补全代码中数组的内容. \n\r- 然后点击提交按钮查看代码运行结果.",
+    "tips": "- 将 college 和 id 两个变量依次插入到第七行的逗号之间,使形成完整的数组结构..",
+    "answer": "- 将第七行修改成如下形式:\n\r\t\tvar my_profile = [ name, college, id, major ];",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",
