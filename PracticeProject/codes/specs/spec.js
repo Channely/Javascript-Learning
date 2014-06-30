@@ -21,11 +21,9 @@ var
     }
 
 function index_0() {
-    console.info('Hello World!')
     return true;
 }
 function index_1() {
-    console.info(name)
     return typeof(name) == 'string' && name != "";
 }
 function index_2_1() {
@@ -35,24 +33,20 @@ function index_2_1() {
     var v_3 = typeof data['学号'] === 'number';
     var v_4 = typeof data['专业'] === 'string';
     var v_5 = typeof logs[0] === 'number';
-    console.info(v_1 , v_2 , v_3 , v_4 , v_5);
     return v_1 && v_2 && v_3 && v_4 && v_5;
 }
 function index_2_2() {
-      var object_data = profile;
-      var array_data = my_profile;
-      var v_1 = my_profile[0] === profile["姓名"];
-      var v_2 = my_profile[1] === profile["学校"];
-      var v_3 = my_profile[2] === profile["学号"];
-      var v_4 = my_profile[3] === profile["专业"];
-      var log_message = logs[0];
-      var v_5_1 = log_message.search(profile["姓名"]);
-      var v_5_2 = log_message.search(profile["学校"]);
-      var v_5_3 = log_message.search(profile["学号"]);
-      var v_5_4 = log_message.search(profile["专业"]);
-      var v_5 = v_5_1 < v_5_2 < v_5_4 < v_5_3;
-      console.info(v_1 , v_2 , v_3 , v_4 , v_5);
-      return v_1 && v_2 && v_3 && v_4 && v_5;
+    var v_1 = my_profile[0] === profile["姓名"];
+    var v_2 = my_profile[1] === profile["学校"];
+    var v_3 = my_profile[2] === profile["学号"];
+    var v_4 = my_profile[3] === profile["专业"];
+    var log_message = logs[0];
+    var v_5_1 = log_message.search(profile["姓名"]);
+    var v_5_2 = log_message.search(profile["学校"]);
+    var v_5_3 = log_message.search(profile["学号"]);
+    var v_5_4 = log_message.search(profile["专业"]);
+    var v_5 = v_5_1 < v_5_2 < v_5_4 < v_5_3;
+    return v_1 && v_2 && v_3 && v_4 && v_5;
 }
 function index_3_1() {
     return true
@@ -63,14 +57,10 @@ function index_3_2() {
 
 //================logic method=======================
 function pass_game() {
-    console.info(true,"Success!");
-    parent.report(true,"Success!");
-//    source.postMessage(true, "http://" + window.location.host)
+    parent.report(true, "Success!");
 }
 function unpass_game() {
-    console.info(false,"Unfortunate!");
-    parent.report(false,"Unfortunate!");
-//    source.postMessage(false, "http://" + window.location.host)
+    parent.report(false, "Unfortunate!");
 }
 function send_result_by(result) {
     result ? pass_game() : unpass_game();
@@ -80,7 +70,7 @@ function catch_the_spec_error_of(code_block) {
         var result = code_block();
         return result;
     } catch (err) {
-        console.info('SPEC ERROR:' + err.description)
+        console.info('SPEC ERROR:' + err.description);
         return false;
     }
 }

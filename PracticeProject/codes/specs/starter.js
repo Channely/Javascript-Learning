@@ -2623,7 +2623,6 @@ var practice_name = null;
 
 (function (finish_call_back) {
     window.addEventListener("message", function (msg) {
-        console.info(msg.data)
         practice_name = msg.data;
         source = msg.source;
         source.postMessage('got', "http://" + window.location.host);
@@ -2632,7 +2631,6 @@ var practice_name = null;
 })(get_api);
 
 function get_api(specs) {
-    console.info(specs);
     var interval = setInterval(function () {
         if (source) {
             test_of[practice_name]();
