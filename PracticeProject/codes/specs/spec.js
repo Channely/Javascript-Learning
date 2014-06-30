@@ -12,14 +12,11 @@ var
         '复杂数据': function () {
             send_result_by(catch_the_spec_error_of(index_2_2))
         },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_4))
+        '算术运算符': function () {
+            send_result_by(catch_the_spec_error_of(index_3_1))
         },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_5))
-        },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_6))
+        '赋值运算符': function () {
+            send_result_by(catch_the_spec_error_of(index_3_2))
         }
     }
 
@@ -57,13 +54,10 @@ function index_2_2() {
       console.info(v_1 , v_2 , v_3 , v_4 , v_5);
       return v_1 && v_2 && v_3 && v_4 && v_5;
 }
-function index_4() {
+function index_3_1() {
     return true
 }
-function index_5() {
-    return true
-}
-function index_6() {
+function index_3_2() {
     return true
 }
 
