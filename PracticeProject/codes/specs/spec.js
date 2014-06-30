@@ -63,11 +63,13 @@ function index_3_2() {
 
 //================logic method=======================
 function pass_game() {
-    parent.report(true,"Success!")
+    console.info(true,"Success!");
+    parent.report(true,"Success!");
 //    source.postMessage(true, "http://" + window.location.host)
 }
 function unpass_game() {
-    parent.report(true,"Unfortunate!")
+    console.info(false,"Unfortunate!");
+    parent.report(false,"Unfortunate!");
 //    source.postMessage(false, "http://" + window.location.host)
 }
 function send_result_by(result) {
@@ -75,7 +77,7 @@ function send_result_by(result) {
 }
 function catch_the_spec_error_of(code_block) {
     try {
-        var result = code_block()
+        var result = code_block();
         return result;
     } catch (err) {
         console.info('SPEC ERROR:' + err.description)

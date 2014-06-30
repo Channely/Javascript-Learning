@@ -34,5 +34,6 @@ console.log = function (arg) {
 function console_log_on_web_page(arg,color){
 // next line is the key code to show message on the web console.
 //    document.write("<h4 style='padding:15px;color: " + color + "'>" + arg + "</h4>");
+    console.info(arg);
     parent.log(arg);
 }
