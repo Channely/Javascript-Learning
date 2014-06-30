@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "javascript中的数据均是六种数据类型undefined,null,number,boolean,string,object中的一种,别的再没有其他类型了.",
+    "simple_desc": "对象(object)和其特殊形式数组(array)是Javascript语言中能够用来组织复杂数据结构的数据类型.",
     "desc": "- 上一小节中,我们将自己的部分个人信息组织成了一个对象(object)格式的数据.\n\r- 本节我们将尝试着取出给对象内的数据,并将这些数据组织成一个比对象更简洁的数据形式 - **数组**\n\r- 数组和对象的区别是\n\r- [1]数组两端由方括号包围,而不是对象两端的花括号.\n\r- [2]数组内的数据是一个个独立的值(value),由逗号隔开,而不是对象中的键值对形式( key:value).\n\r- 例如\n\r\t\t//数组\n\r\t\tvar courses = [\"Maths\",\"Chinese\"]\n\r\t\t//对象\n\r\t\tvar grade = {Maths:82,Chinese:79}",
     "step_desc": "- 按照第六行注释的要求,补全代码中数组的内容. \n\r- 然后点击提交按钮查看代码运行结果.",
     "tips": "- 将 college 和 id 两个变量依次插入到第七行的逗号之间,使形成完整的数组结构..",
