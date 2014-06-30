@@ -2625,9 +2625,8 @@ var practice_name = null;
     window.addEventListener("message", function (msg) {
         console.info(msg.data)
         practice_name = msg.data;
-//        source = msg.source;
-//        source.postMessage('got', "http://" + window.location.host);
-        parent.report('got', "http://" + window.location.host)
+        source = msg.source;
+        source.postMessage('got', "http://" + window.location.host);
     }, false)
     boot(finish_call_back);
 })(get_api);
