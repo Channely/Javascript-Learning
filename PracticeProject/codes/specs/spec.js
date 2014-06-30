@@ -1,5 +1,5 @@
 var
-    send_signal_by_testing_result_of = {
+    test_of = {
         'HelloWorld': function () {
             send_result_by(catch_the_spec_error_of(index_0))
         },
