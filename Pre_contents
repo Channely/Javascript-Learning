@@ -5,10 +5,17 @@ JS-Base:
 数据类型 
     1,简单数据(五种) null undefined string boolean number
     2,复杂数据(一种) object(包括 array)
-数字运算符
+    
+算数运算
+    算术运算符
+    赋值运算符
 逻辑术语
+    比较运算符
+    逻辑运算符
+    条件运算符
 真值表
 布尔表达式
+
 if判断
 else和if
 switch跳转
