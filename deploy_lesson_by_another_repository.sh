@@ -28,6 +28,9 @@ git commit -m "${commit}"
 git pull --rebase
 git push
 echo "\033[32m another end \033[0m"
+echo "\033[32m ====================================================== \033[0m"
+git status
 cd ../javascript_course/
-ls
+echo "\033[32m ====================================================== \033[0m"
+git status
 #end it.
