@@ -57,12 +57,10 @@ function index_3_2() {
 
 //================logic method=======================
 function pass_game() {
-    setTimeout('parent.report(true, "Success!")',500);
-//    parent.report(true, "Success!");
+    parent.report(true, "Success!");
 }
 function unpass_game() {
-    setTimeout('parent.report(false, "Unfortunate!")',500);
-//    parent.report(false, "Unfortunate!");
+    parent.report(false, "Unfortunate!");
 }
 function send_result_by(result) {
     result ? pass_game() : unpass_game();
