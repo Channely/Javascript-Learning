@@ -1,15 +1,15 @@
 {
-    "title": "demo",
+    "title": "算术运算符",
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "demo",
+    "code": "(7 - 1) / (4 + 6 % 4);//注意()能够改变运算顺序",
     "question": {
-        "content": "demo?",
-        "options": ["demo","demo", "demo"]
+        "content": "结果是?",
+        "options": ["0","1", "8.75"]
     },
     "answer": {
-        "value": "demo",
+        "value": "1",
         "explain_file": true
     }
 }
