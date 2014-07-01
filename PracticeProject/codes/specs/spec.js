@@ -21,7 +21,7 @@ var
     }
 
 function index_0() {
-    return typeof logs[0] != 'undefined';
+    return typeof logs[0] != 'undefined' && typeof logs[0] != 'object';
 }
 function index_1() {
     return typeof(name) == 'string' && name != "" && typeof logs[0] == 'string';
@@ -57,10 +57,12 @@ function index_3_2() {
 
 //================logic method=======================
 function pass_game() {
-    parent.report(true, "Success!");
+    setTimeout('parent.report(true, "Success!")',500);
+//    parent.report(true, "Success!");
 }
 function unpass_game() {
-    parent.report(false, "Unfortunate!");
+    setTimeout('parent.report(false, "Unfortunate!")',500);
+//    parent.report(false, "Unfortunate!");
 }
 function send_result_by(result) {
     result ? pass_game() : unpass_game();
