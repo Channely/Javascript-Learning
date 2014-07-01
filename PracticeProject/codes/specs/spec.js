@@ -21,10 +21,10 @@ var
     }
 
 function index_0() {
-    return true;
+    return typeof logs[0] != 'undefined';
 }
 function index_1() {
-    return typeof(name) == 'string' && name != "";
+    return typeof(name) == 'string' && name != "" && typeof logs[0] == 'string';
 }
 function index_2_1() {
     var data = profile;
