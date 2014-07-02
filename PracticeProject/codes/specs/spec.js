@@ -21,7 +21,7 @@ var
     }
 
 function index_0() {
-    return typeof logs[0] != 'string' && -1 < logs[0].search("ello") < logs[0].search("orld")
+    return typeof logs[0] === 'string' && -1 < logs[0].search("ello") < logs[0].search("orld")
     // return typeof logs[0] != 'undefined' && typeof logs[0] != 'object';
 }
 function index_1() {
