@@ -21,7 +21,8 @@ var
     }
 
 function index_0() {
-    return typeof logs[0] != 'undefined' && typeof logs[0] != 'object';
+    return typeof logs[0] != 'string' && -1 < logs[0].search("ello") < logs[0].search("orld")
+    // return typeof logs[0] != 'undefined' && typeof logs[0] != 'object';
 }
 function index_1() {
     return typeof(name) == 'string' && name != "" && typeof logs[0] == 'string';
@@ -45,7 +46,7 @@ function index_2_2() {
     var v_5_2 = log_message.search(profile["学校"]);
     var v_5_3 = log_message.search(profile["学号"]);
     var v_5_4 = log_message.search(profile["专业"]);
-    var v_5 = v_5_1 < v_5_2 < v_5_4 < v_5_3;
+    var v_5 = -1 < v_5_1 < v_5_2 < v_5_4 < v_5_3;
     return v_1 && v_2 && v_3 && v_4 && v_5;
 }
 function index_3_1() {
