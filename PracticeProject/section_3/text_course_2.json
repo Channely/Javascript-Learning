@@ -1,15 +1,15 @@
 {
-    "title": "demo",
+    "title": "赋值运算符",
     "type": "topic",
     "order": 1,
     "desc_file": true,
-    "code": "demo",
+    "code": "var x=2,y=5;\nx==++y;",
     "question": {
-        "content": "demo?",
-        "options": ["demo","demo", "demo"]
+        "content": "则 x+=++y 这段代码写成普通的书写形式可以是?",
+        "options": ["x=x+y+1","x=x+y", "x=y+1"]
     },
     "answer": {
-        "value": "demo",
+        "value": "x=x+y+1",
         "explain_file": true
     }
 }
