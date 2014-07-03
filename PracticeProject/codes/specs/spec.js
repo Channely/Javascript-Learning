@@ -50,9 +50,9 @@ function index_2_2() {
     return v_1 && v_2 && v_3 && v_4 && v_5;
 }
 function index_3() {
-    var v_1 = logs[0].search(result++) == 6;
-    var v_2 = logs[1].search(++result) == 12;
-    var v_3 = typeof(result) === "number" && result > 10000;
+    var v_1 = typeof(result) === "number" && result > 10000;
+    var v_2 = logs[0].search(result-2) == 6;
+    var v_3 = logs[1].search(result) == 12;
     return v_1 && v_2 && v_3;
 }
 function index_4() {
