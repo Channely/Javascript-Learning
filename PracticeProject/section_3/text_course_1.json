@@ -3,9 +3,9 @@
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "(7 - 1) / (4 + 6 % 4);//注意()能够改变运算顺序",
+    "code": "(7 - 1) / (4 + 6 % 4);  //注意()能够改变运算顺序",
     "question": {
-        "content": "结果是?",
+        "content": "的计算结果是?",
         "options": ["0","1", "8.75"]
     },
     "answer": {
