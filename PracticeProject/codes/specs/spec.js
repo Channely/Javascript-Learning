@@ -13,10 +13,10 @@ var
             send_result_by(catch_the_spec_error_of(index_2_2))
         },
         '算术运算符': function () {
-            send_result_by(catch_the_spec_error_of(index_3_1))
+            send_result_by(catch_the_spec_error_of(index_3))
         },
-        '赋值运算符': function () {
-            send_result_by(catch_the_spec_error_of(index_3_2))
+        '': function () {
+            send_result_by(catch_the_spec_error_of(index_4))
         }
     }
 
@@ -49,10 +49,10 @@ function index_2_2() {
     var v_5 = -1 < v_5_1 < v_5_2 < v_5_4 < v_5_3;
     return v_1 && v_2 && v_3 && v_4 && v_5;
 }
-function index_3_1() {
+function index_3() {
     return true
 }
-function index_3_2() {
+function index_4() {
     return true
 }
 
