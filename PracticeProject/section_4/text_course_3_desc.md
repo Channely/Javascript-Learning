@@ -11,7 +11,7 @@ condition实际值为true时,执行expr1.condition实际值为false时,执行exp
     var age = 16;
     console.log("你是一个" + (age >= 18 ? "成年人!" : "未成年人!"));
 
-    //console: 你是一个成年人!
+    //console: 你是一个未成年人!
 
     /*
     age >= 18 ? "成年人!" : "未成年人!";
