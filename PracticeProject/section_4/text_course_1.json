@@ -3,13 +3,13 @@
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "demo",
+    "code": "console.log(8*2 <= 16);",
     "question": {
-        "content": "demo?",
-        "options": ["demo1","demo2", "demo3"]
+        "content": "上述代码运行后在控制台(console)中的输出结果是?",
+        "options": ["true","false", "16"]
     },
     "answer": {
-        "value": "demo3",
+        "value": "true",
         "explain_file": true
     }
 }
