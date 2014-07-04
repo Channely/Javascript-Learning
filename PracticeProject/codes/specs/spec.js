@@ -15,8 +15,14 @@ var
         '算术运算符': function () {
             send_result_by(catch_the_spec_error_of(index_3))
         },
-        '': function () {
-            send_result_by(catch_the_spec_error_of(index_4))
+        '比较运算符': function () {
+            send_result_by(catch_the_spec_error_of(index_4_1))
+        },
+        '逻辑运算符': function () {
+            send_result_by(catch_the_spec_error_of(index_4_2))
+        },
+        '条件运算符': function () {
+            send_result_by(catch_the_spec_error_of(index_4_3))
         }
     }
 
@@ -55,7 +61,13 @@ function index_3() {
     var v_3 = logs[1].search(result) == 12;
     return v_1 && v_2 && v_3;
 }
-function index_4() {
+function index_4_1() {
+    return true
+}
+function index_4_2() {
+    return true
+}
+function index_4_3() {
     return true
 }
 
