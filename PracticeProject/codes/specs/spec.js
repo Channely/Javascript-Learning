@@ -72,7 +72,9 @@ function index_4_2() {
     return true
 }
 function index_4_3() {
-    return true
+    var v_1 = maths_score >= 60;
+    var v_2 = logs[0] === '嘿,Tom!你通过了本学期的数学考试.';
+    return v_1 && v_2;
 }
 
 //================logic method=======================
