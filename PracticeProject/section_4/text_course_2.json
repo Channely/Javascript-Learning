@@ -3,13 +3,13 @@
     "type": "topic",
     "order": 1,
     "desc_file": true,
-    "code": "demo",
+    "code": "console(0 > 10 || !(0 < -1));",
     "question": {
-        "content": "demo?",
-        "options": ["demo1","demo2", "demo3"]
+        "content": "",
+        "options": ["undefined","true","false"]
     },
     "answer": {
-        "value": "demo1",
+        "value": "true",
         "explain_file": true
     }
 }
