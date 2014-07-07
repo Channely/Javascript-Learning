@@ -69,7 +69,7 @@ function index_4_1() {
     return v_1 && v_2 && v_3 && v_4;
 }
 function index_4_2() {
-    var v_1 = 100 >= profile.score >= 60 && typeof(profile.score) === "number";
+    var v_1 = 100 >= profile.score && profile.score >= 60 && typeof(profile.score) === "number";
     var v_2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试.';
     return v_1 && v_2;
 }
