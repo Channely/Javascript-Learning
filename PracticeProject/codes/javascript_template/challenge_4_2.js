@@ -3,7 +3,7 @@
 var profile = {
     name : "Tom",
     course : "Maths",
-    score : 63
+    score :
 };
 
 console.log("嘿" + profile.name + "!你" + (profile.score >= 60 ? "通过了" : "没通过") + "本学期的" + profile.course + "考试.");
