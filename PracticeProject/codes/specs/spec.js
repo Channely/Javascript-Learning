@@ -21,8 +21,8 @@ var
         '逻辑运算符': function () {
             send_result_by(catch_the_spec_error_of(index_4_2))
         },
-        '条件运算符': function () {
-            send_result_by(catch_the_spec_error_of(index_4_3))
+        '': function () {
+            send_result_by(catch_the_spec_error_of(index_X))
         }
     }
 
@@ -69,12 +69,12 @@ function index_4_1() {
     return v_1 && v_2 && v_3 && v_4;
 }
 function index_4_2() {
-    return true
-}
-function index_4_3() {
-    var v_1 = maths_score >= 60;
-    var v_2 = logs[0] === '嘿,Tom!你通过了本学期的数学考试.';
+    var v_1 = profile.grade >= 60;
+    var v_2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试.';
     return v_1 && v_2;
+}
+function index_x() {
+    return true
 }
 
 //================logic method=======================
