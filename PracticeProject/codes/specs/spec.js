@@ -62,10 +62,10 @@ function index_3() {
     return v_1 && v_2 && v_3;
 }
 function index_4_1() {
-    var v_1 = logs[0];
-    var v_2 = logs[1];
-    var v_3 = logs[2];
-    var v_4 = logs[3];
+    var v_1 = logs[0]===true;
+    var v_2 = logs[1]===true;
+    var v_3 = logs[2]===true;
+    var v_4 = logs[3]===true;
     return v_1 && v_2 && v_3 && v_4;
 }
 function index_4_2() {
