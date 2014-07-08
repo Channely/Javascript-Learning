@@ -21,7 +21,7 @@ var
         '逻辑运算符': function () {
             send_result_by(catch_the_spec_error_of(index_4_2))
         },
-        'if判断': function () {
+        'if语句': function () {
             send_result_by(catch_the_spec_error_of(index_5_1))
         },
         'else和if': function () {
