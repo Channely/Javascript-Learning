@@ -1,0 +1,27 @@
+{
+    "name": "if判断",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "demo.",
+    "desc": "- demo.",
+    "step_desc": "- demo.",
+    "tips": "- demo.",
+    "answer": "- demo;",
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "challenge_5_1.js",
+            "path": "/javascript_template/"
+        }
+    ],
+    "spec": {
+        "type":"terminal",
+        "src":"browser",
+        "name": "challenge_5_1.html",
+        "path": "/javascript_template/"
+    },
+    "order": 0
+}

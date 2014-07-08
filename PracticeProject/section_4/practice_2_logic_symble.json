@@ -6,7 +6,7 @@
     "simple_desc": "逻辑运算符和条件运算符为编码者提供了基本的逻辑判断能力和分支条件选择能力,这些运算符将是接下来 学习的 if 判断语句 和 for 循环语句 的基础.",
     "desc": "- 本节的学习过程中,我们了解了逻辑表达式的类型 与( && ) 或( || ) 非( ! ),\n\r- 和条件表达式的格式 condition ? expr1 : expr2;\n\r- 例如:\n\r\t\t3>7 && 2>0 //false\n\t\t3>7 || 2>0 //true\n\t\t!(3>7)    //true\n\t\t3>7 ? console.log('3>7.') : console.log('3<7.');  // '3<7.'.",
     "step_desc": "- 分析代码编辑器第九行中的条件判断语句.\n\r- 然后给 profile对象的score属性添加一个合适的数值,使得提交后在console中输出Tom通过该考试的信息.",
-    "tips": "- 给代码第六行添加一个不小于60且不大于100的数字..",
+    "tips": "- 给代码第六行添加一个不小于60且不大于100的数字.",
     "answer": "- 将第六行修改为:\n\r\t\tscore : 83",
 
     "project_dir": "/javascript_template",
