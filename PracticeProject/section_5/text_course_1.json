@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "var answer = prompt('7%5 = ?');\nif (answer == 2){\nconsole.log('Correct !! ');\n};",
+    "code": "var answer = prompt('7%5 = ?');\nif (answer == 2){\n    console.log('Correct !! ');\n};",
     "question": {
         "content": "如果要使代码输出字符 'Correct !!',则在对话框中应该输入?",
         "options": ["1", "2", "3"]
