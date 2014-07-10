@@ -3,13 +3,13 @@
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "demo;",
+    "code": "var answer = prompt('7%5 = ?');\nif (answer == 2){\n    console.log('Correct !! ');\n};",
     "question": {
-        "content": "demo?",
-        "options": ["demo1","demo2", "demo3"]
+        "content": "如果要使代码输出字符 'Correct !!',则在对话框中应该输入?",
+        "options": ["1","2", "3"]
     },
     "answer": {
-        "value": "demo1",
+        "value": "2",
         "explain_file": true
     }
 }
