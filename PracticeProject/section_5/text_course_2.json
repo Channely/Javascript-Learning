@@ -3,13 +3,13 @@
     "type": "topic",
     "order": 1,
     "desc_file": true,
-    "code": "demo",
+    "code": "var answer = prompt('Today is Friday,yes or no?');\nif (answer == 'yes') {\nconsole.log('Happy weekends!');\n} else {\nconsole.log('Work hard!');\n}",
     "question": {
-        "content": "demo?",
-        "options": ["demo1","demo2","demo3"]
+        "content": "上述代码运行时,如果在弹出框中回答 'no',则 console 中的输出结果是 ?",
+        "options": ["Happy weekends!","Work hard!"]
     },
     "answer": {
-        "value": "demo1",
+        "value": "Work hard!",
         "explain_file": true
     }
 }
