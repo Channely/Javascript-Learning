@@ -19,3 +19,5 @@
     } else {
         console.log("Hi, girl!");
     }
+
+那么,请根据下面的代码回答问题:
