@@ -77,7 +77,9 @@ function index_4_2() {
     return v_1 && v_2;
 }
 function index_5_1() {
-    return true
+    var v1 = 10 < people && people <= 20;
+    var v2 = logs[0] == "我们去踢足球吧!";
+    return v1 && v2;
 }
 function index_5_2() {
     return true
