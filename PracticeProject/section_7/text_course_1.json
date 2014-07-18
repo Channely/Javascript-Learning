@@ -1,0 +1,15 @@
+{
+    "title": "函数function",
+    "type": "topic",
+    "order": 0,
+    "desc_file": true,
+    "code": "demo",
+    "question": {
+        "content": "demo?",
+        "options": ["2 4 6 8", "0 2 4 6 8", "2 4 6 8 10"]
+    },
+    "answer": {
+        "value": "0 2 4 6 8",
+        "explain_file": true
+    }
+}

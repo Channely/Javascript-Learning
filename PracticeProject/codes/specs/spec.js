@@ -30,7 +30,7 @@ var
         'for语句': function () {
             send_result_by(catch_the_spec_error_of(index_6_1))
         },
-        '代码:function': function () {
+        '函数function': function () {
             send_result_by(catch_the_spec_error_of(index_7_1))
         }
     };
