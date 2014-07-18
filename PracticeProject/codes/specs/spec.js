@@ -27,7 +27,7 @@ var
         'else和if': function () {
             send_result_by(catch_the_spec_error_of(index_5_2))
         },
-        'for循环': function () {
+        'for循环语句': function () {
             send_result_by(catch_the_spec_error_of(index_6_1))
         },
         '代码:function': function () {

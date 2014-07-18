@@ -1,9 +1,9 @@
 {
-    "name": "for循环",
+    "name": "for循环语句",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "for循环语句是基本的控制语句,for循环语句中只要循环条件成立就不断重复执行同样处理的代码块.即代码中同一代码块会被反复执行.",
     "desc": "- demo.",
     "step_desc": "- demo",
     "tips": "- demo.",
