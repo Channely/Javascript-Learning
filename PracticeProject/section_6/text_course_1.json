@@ -1,0 +1,15 @@
+{
+    "title": "for循环",
+    "type": "topic",
+    "order": 0,
+    "desc_file": true,
+    "code": "demo;",
+    "question": {
+        "content": "demo?",
+        "options": ["1", "2", "3"]
+    },
+    "answer": {
+        "value": "2",
+        "explain_file": true
+    }
+}

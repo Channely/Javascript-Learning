@@ -26,6 +26,12 @@ var
         },
         'else和if': function () {
             send_result_by(catch_the_spec_error_of(index_5_2))
+        },
+        'for循环': function () {
+            send_result_by(catch_the_spec_error_of(index_6_1))
+        },
+        '代码:function': function () {
+            send_result_by(catch_the_spec_error_of(index_6_2))
         }
     };
 
@@ -89,6 +95,12 @@ function index_5_2() {
     var v2 = logs[0] == "我们去玩篮球吧!";
     var v3 = logs[1] == undefined;
     return v1 && v2 && v3;
+}
+function index_6_1() {
+    return true;
+}
+function index_6_2() {
+    return true;
 }
 
 //================logic method=======================
