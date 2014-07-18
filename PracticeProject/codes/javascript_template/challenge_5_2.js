@@ -1,4 +1,4 @@
-var people = prompt("我们有多少人?(请输入一个数字)");
+var people = 8;
 
 if(people <= 5){
     console.log("我们去打网球吧!")

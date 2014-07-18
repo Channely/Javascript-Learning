@@ -27,7 +27,7 @@ var
         'else和if': function () {
             send_result_by(catch_the_spec_error_of(index_5_2))
         }
-    }
+    };
 
 function index_0() {
     return typeof logs[0] === 'string' && -1 < logs[0].search("ello") < logs[0].search("orld")
@@ -62,7 +62,8 @@ function index_3() {
     var v_1 = typeof(result) === "number" && result > 10000;
     var v_2 = logs[0].search(result-2) == 6;
     var v_3 = logs[1].search(result) == 12;
-    return v_1 && v_2 && v_3;
+    var v_4 = logs[2] == undefined;
+    return v_1 && v_2 && v_3 && v_4;
 }
 function index_4_1() {
     var v_1 = logs[0]===true;
@@ -72,17 +73,22 @@ function index_4_1() {
     return v_1 && v_2 && v_3 && v_4;
 }
 function index_4_2() {
-    var v_1 = 100 >= profile.score && profile.score >= 60 && typeof(profile.score) === "number";
-    var v_2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试.';
-    return v_1 && v_2;
+    var v1 = 100 >= profile.score && profile.score >= 60 && typeof(profile.score) === "number";
+    var v2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试.';
+    var v3 = logs[1] == undefined;
+    return v1 && v2 && v3;
 }
 function index_5_1() {
     var v1 = 10 < people && people <= 20;
     var v2 = logs[0] == "我们去踢足球吧!";
-    return v1 && v2;
+    var v3 = logs[1] == undefined;
+    return v1 && v2 && v3;
 }
 function index_5_2() {
-    return true
+    var v1 = people === 8;
+    var v2 = logs[0] == "我们去玩篮球吧!";
+    var v3 = logs[1] == undefined;
+    return v1 && v2 && v3;
 }
 
 //================logic method=======================
