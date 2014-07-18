@@ -5,9 +5,9 @@
 
     "simple_desc": "demo.",
     "desc": "- demo.",
-    "step_desc": "- demo.",
-    "tips": "- demo.",
-    "answer": "- demo",
+    "step_desc": "- 在未修改之前的代码中,\n\r\t\t当 people=8 时,\n\r- 条件 people<=10 和条件 people<=20 均会被满足,\n\r- 所以两个代码块\n\r\t\tconsole.log('我们去玩篮球吧!');\n\r- 和\n\r\t\tconsole.log('我们去踢足球吧!');\n\r- 均会被执行.\n\r- 请用 else if 关键字替代代码中的部分 if 关键字(不要修改判断条件),\n\r- 使当 people 的值取1~20之间任何人数时,只有一条 console 文字输出.",
+    "tips": "- 按照编辑器中的注释提示,将部分 if 关键字修改为 else if.",
+    "answer": "- 将编辑器中的代码修改成\n\r\t\tvar people = prompt('我们有多少人?(请输入一个数字)');\n\t\tif(people <= 5){\n\t\tconsole.log('我们去打网球吧!')\n\t\t}\n\t\telse if(people <= 10){\n\t\tconsole.log('我们去玩篮球吧!')\n\t\t}\n\t\telse if(people <= 20){\n\t\tconsole.log('我们去踢足球吧!')\n\t\t}\n\t\telse {\n\t\tconsole.log('我也不知道该怎么办.')\n\t\t}",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",
