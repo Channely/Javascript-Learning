@@ -25,3 +25,11 @@
       console.log("Number的值是0!");
     }
 
+    if (people <= 10) {
+      console.log("我们去玩篮球吧!");
+    } else if (people <= 20) {
+      console.log("我们去踢足球吧!");
+    } else {
+      console.log("我也不知道该怎么办.");
+    }
+
