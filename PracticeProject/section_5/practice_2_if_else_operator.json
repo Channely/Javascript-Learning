@@ -7,7 +7,7 @@
     "desc": "- else if 和 else 是两个辅助 if 条件判断语句的关键字,常用的语句如 if....else if...else .\n\r- 当需要选择多个代码块中的一个来运行时，使用 if....else if...else 语句将会比纯粹的 if...if...if... 语句有更高效的书写方式.\n\r- 例如:\n\r\t\tif (people <= 10) {\n\t\t  console.log('我们去玩篮球吧!');\n\t\t} else if (people <= 20) {\n\t\t  console.log('我们去踢足球吧!');\n\t\t} else {\n\t\t  console.log('我也不知道该怎么办.');\n\t\t}\n\r- 条件判断语句的执行结果和\n\r\t\tif (people <= 10) {\n\t\t  console.log('我们去玩篮球吧!');\n\t\t}\n\t\tif (people > 10 && people <= 20) {\n\t\t  console.log('我们去踢足球吧!');\n\t\t}\n\t\tif (people > 20) {\n\t\t  console.log('我也不知道该怎么办.');\n\t\t}\n\r- 相同",
     "step_desc": "- 在未修改之前的代码中,\n\r\t\t当 people=8 时,\n\r- 条件 people<=10 和条件 people<=20 均会被满足,\n\r- 所以两个代码块\n\r\t\tconsole.log('我们去玩篮球吧!');\n\r- 和\n\r\t\tconsole.log('我们去踢足球吧!');\n\r- 均会被执行.\n\r- 请用 else if 关键字替代代码中的部分 if 关键字(不要修改判断条件),\n\r- 使当 people 的值取1~20之间任何人数时,只有一条 console 文字输出.",
     "tips": "- 按照编辑器中的注释提示,将 if 关键字修改为 else if.",
-    "answer": "- 将编辑器中的代码修改成\n\r\t\tvar people = prompt('我们有多少人?(请输入一个数字)');\n\t\tif(people <= 5){\n\t\tconsole.log('我们去打网球吧!')\n\t\t}\n\t\telse if(people <= 10){\n\t\tconsole.log('我们去玩篮球吧!')\n\t\t}\n\t\telse if(people <= 20){\n\t\tconsole.log('我们去踢足球吧!')\n\t\t}\n\t\telse {\n\t\tconsole.log('我也不知道该怎么办.')\n\t\t}",
+    "answer": "- 将编辑器中的代码修改成\n\r\t\tvar people = 8;\n\t\tif(people <= 5){\n\t\tconsole.log('我们去打网球吧!')\n\t\t}\n\t\telse if(people <= 10){\n\t\tconsole.log('我们去玩篮球吧!')\n\t\t}\n\t\telse if(people <= 20){\n\t\tconsole.log('我们去踢足球吧!')\n\t\t}\n\t\telse {\n\t\tconsole.log('我也不知道该怎么办.')\n\t\t}",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",
