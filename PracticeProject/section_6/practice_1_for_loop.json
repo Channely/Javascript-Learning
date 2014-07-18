@@ -1,13 +1,13 @@
 {
-    "name": "for循环语句",
+    "name": "for语句",
     "type": "normal",
     "point": 200,
 
     "simple_desc": "for循环语句是基本的控制语句,for循环语句中只要循环条件成立就不断重复执行同样处理的代码块.即代码中同一代码块会被反复执行.",
-    "desc": "- demo.",
-    "step_desc": "- demo",
-    "tips": "- demo.",
-    "answer": "- demo.",
+    "desc": "- for循环的语法格式:\n\r\t\tfor (初始化表达式, 条件表达式, 更新表达式){\n\t\t    代码块\n\t\t}\n\r\n\r- 例如:\n\r\t\tfor (var i = 10; i >= 0; i--) {\n\t\t    console.log(i); // 输出数字 10 到 0.\n\t\t}\n\t\t//程序中 i 的起始值为 10. 每执行一次循环, i 的值就会累减 1, 循环会一直运行下去, 直到 i 等于 0 为止.\n\t\t\n\t\tfor (var i = 0; i <= 10; i++) {\n\t\t    console.log(i); // 输出数字 0 到 10.\n\t\t}\n\t\t//程序中 i 的起始值为 0. 每执行一次循环, i 的值就会累加 1, 循环会一直运行下去, 直到 i 等于 10 为止.",
+    "step_desc": "- 右侧编辑器的代码中,for循环语句的表达式不完整.\n\r- 请补全for循环的表达式,使代码运行后在console控制台输出0~10之间所有的偶数(不包括0和10).",
+    "tips": "- 控制循环变量初始值从1或2开始.",
+    "answer": "- 将第二行for循环的三个表达式改为:\n\r\t\tvar i=1;i<10;i++ \n\r- 或 \n\r\t\tvar i=2;i<10;i++",
 
     "project_dir": "/javascript_template",
     "specs_dir": "/specs",

@@ -27,11 +27,11 @@ var
         'else和if': function () {
             send_result_by(catch_the_spec_error_of(index_5_2))
         },
-        'for循环语句': function () {
+        'for语句': function () {
             send_result_by(catch_the_spec_error_of(index_6_1))
         },
         '代码:function': function () {
-            send_result_by(catch_the_spec_error_of(index_6_2))
+            send_result_by(catch_the_spec_error_of(index_7_1))
         }
     };
 
@@ -97,9 +97,14 @@ function index_5_2() {
     return v1 && v2 && v3;
 }
 function index_6_1() {
-    return true;
+    var v1 = logs[0].search(2) == 0;
+    var v2 = logs[1].search(4) == 0;
+    var v3 = logs[2].search(6) == 0;
+    var v4 = logs[3].search(8) == 0;
+    var v5 = logs[4] == undefined;
+    return v1 && v2 && v3 && v4 && v5;
 }
-function index_6_2() {
+function index_7_1() {
     return true;
 }
 
