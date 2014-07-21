@@ -29,10 +29,5 @@
 
 请根据下面代码回答一个提问:
 
-    var numbers = {a : 2, b : 3};
-    function get_sum(a, b){
-        return a + b;
-    }
-    var sum = get_sum(numbers.a, numbers.b);
-    console.log(sum);
+
 
