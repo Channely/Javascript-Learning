@@ -14,12 +14,9 @@
 
 同一行代码中,语句之间必须以分号间隔.
 
-注: 声明变量 - var
-正如代数运算中 x=5, y=6, z=x+y  的'变量' x y z 一样, JavaScript 变量用于保存数据值.
+注: 声明变量:正如代数运算中 x=5, y=6, z=x+y  的'变量' x y z 一样, JavaScript 变量用于保存数据值.
 我们可以给变量起一个简短名称,比如 x, 或者更有描述性的名称, 比如 name.
-在 JavaScript 中创建变量经常被称为“声明”变量.
-
-需要通过 var 语句来声明 JavaScript 变量:
+在 JavaScript 中创建变量经常被称为“声明”变量.需要通过 var 语句来声明 JavaScript 变量:
 
     var x;
     var name;
@@ -28,3 +25,4 @@
 
     var x=5;
     var name="Tom";
+
