@@ -1,0 +1,15 @@
+{
+    "title": "函数的调用",
+    "type": "topic",
+    "order": 1,
+    "desc_file": true,
+    "code": "",
+    "question": {
+        "content": "demo?",
+        "options": ["2 4 6 8", "0 2 4 6 8", "2 4 6 8 10"]
+    },
+    "answer": {
+        "value": "0 2 4 6 8",
+        "explain_file": true
+    }
+}
