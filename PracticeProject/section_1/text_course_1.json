@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 0,
     "desc_file": true,
-    "code": "请回答:",
+    "code": "",
     "question": {
         "content": "下列哪种书写形式是没错误的?",
         "options": ["var name = 'Tom'  var age = 16","var name = 'Tom'; var age = 16;", "var name = 'Tom'  var age = 16;"]
