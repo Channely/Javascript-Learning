@@ -105,7 +105,11 @@ function index_6_1() {
     return v1 && v2 && v3 && v4 && v5;
 }
 function index_7_1() {
-    return true;
+    var v1 = choose == 'a' || choose == 'b' || choose == 'c' || choose == 'd';
+    var v2 = typeof(all_data) == 'object';
+    var v3 = logs[0].search(typeof all_data[choose]) >= 8;
+    var v4 = logs[1] == undefined;
+    return v1 && v2 && v3 && v4;
 }
 
 //================logic method=======================
