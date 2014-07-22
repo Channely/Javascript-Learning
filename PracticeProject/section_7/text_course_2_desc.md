@@ -18,7 +18,8 @@
 当调用有参数和返回值的函数时,函数可以对传入的参数进行操作,然后将指定的结果返回.
 
     function get_sum(a, b){		//  声明函数(带有参数a,b)
-        return a+b;				//  返回值
+        var result = a + b;
+        return result;			//  返回值
     }
     var sum = get_sum(2, 3);	// 调用函数,将返回值5赋值给变量 sum
     console.log(sum);			// 在console输出变量的值 5
