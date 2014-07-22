@@ -22,3 +22,5 @@
     console > 6
     console > 8
     console > 循环结束
+
+那么
