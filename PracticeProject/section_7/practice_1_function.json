@@ -3,7 +3,7 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "demo.",
+    "simple_desc": "函数是由一连串的子程序(一系列语句的集合)所组成的, 可以被外部程序调用. 向函数传递参数之后, 函数可以返回一定的值.",
     "desc": "- demo.",
     "step_desc": "- demo.",
     "tips": "- demo.",
