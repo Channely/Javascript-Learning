@@ -6,6 +6,6 @@ function get_type(data) {
     var result = "该数据的类型是:" + type;
     console.log(result);
 }
-var choose = prompt("a:123  b:'hello'  c:null  d:['hello', 'world', '!']   \n\r请输入想查看类型的数据标号,如:查询123则输入 a ")
+var choose = prompt("a: 123  b: 'hello'  c: null  d: ['hello','world','!']\n\r请输入想查看类型的数据标号,如:查询123则输入 a ")
 get_type(all_data[choose]);
 
