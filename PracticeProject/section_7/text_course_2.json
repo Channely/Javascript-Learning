@@ -5,11 +5,11 @@
     "desc_file": true,
     "code": "var numbers = {a : 2, b : 3};\nfunction get_sum(a, b){\nreturn a + b;\n}\nvar sum = get_sum(numbers.a, numbers.b);\nconsole.log(sum);",
     "question": {
-        "content": "demo?",
-        "options": ["2 4 6 8", "0 2 4 6 8", "2 4 6 8 10"]
+        "content": "上述代码的输出结果是?",
+        "options": ["a + b", "2 + 3", "5"]
     },
     "answer": {
-        "value": "0 2 4 6 8",
+        "value": "5",
         "explain_file": true
     }
 }
