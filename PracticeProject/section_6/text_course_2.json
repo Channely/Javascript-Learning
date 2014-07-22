@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 1,
     "desc_file": true,
-    "code": "for(var i=0;i<10;i++){\n    console.log(i);\n    if(i==3){\n        break;\n    }\n}",
+    "code": "for(var i = 0; i < 10; i++){\n    console.log( i );\n    if(i == 3){\n        break;\n    }\n}",
     "question": {
         "content": "的输出结果是?",
         "options": ["0 1 2", "0 1 2 3", "0 1 2 3 4 5 6 7 8 9"]
