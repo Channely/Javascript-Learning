@@ -4,7 +4,7 @@
 
     condition ? expr1 : expr2;
 
-condition实际值为true时，执行expr1.condition实际值为false时，执行expr2.
+condition实际值为true时，执行expr1。condition实际值为false时，执行expr2。
 
 例子
 
