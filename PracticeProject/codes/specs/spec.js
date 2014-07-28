@@ -80,7 +80,7 @@ function index_4_1() {
 }
 function index_4_2() {
     var v1 = 100 >= profile.score && profile.score >= 60 && typeof(profile.score) === "number";
-    var v2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试.';
+    var v2 = logs[0] === '嘿Tom!你通过了本学期的Maths考试。';
     var v3 = logs[1] == undefined;
     return v1 && v2 && v3;
 }
