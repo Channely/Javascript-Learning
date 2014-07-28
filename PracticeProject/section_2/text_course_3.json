@@ -5,7 +5,7 @@
     "desc_file": true,
     "code": "",
     "question": {
-        "content": "那么,如果要取出数组courses中的数据'Biology',可以用?",
+        "content": "那么，如果要取出数组courses中的数据'Biology'，可以用?",
         "options": ["courses[1]","courses[2]", "courses[3]"]
     },
     "answer": {

@@ -5,7 +5,7 @@
     "desc_file": true,
     "code": "var phone = {zone : '010', number : '12345678'};\nvar phone_number = phone['zone'] + phone.number;\nconsole.log(phone_number);",
     "question": {
-        "content": "上面代码执行后,控制台(console)的输出结果是?",
+        "content": "上面代码执行后，控制台(console)的输出结果是?",
         "options": ["01012345678","010", "12345678"]
     },
     "answer": {
