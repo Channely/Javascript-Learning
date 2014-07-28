@@ -3,10 +3,10 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "javascript中的数据均是六种数据类型undefined，null，number，boolean，string，object中的一种，别的再没有其他类型了.",
-    "desc": "- 前面说过，编程世界只有数据和代码两种元素.\n\r- 在本节的练习内容中，我们要将自己的一些个人信息编写为一个javascript对象.\n\r- 对象的属性包括'姓名'，'学校'，'学号'，'专业'，\n\r- 其中'学号'属性值的类型为数字(number)，并在console中输出学号的值.",
-    "step_desc": "- 将编辑器中定义个人信息的代码补全,注意所写数据值的类型.\n\r- 然后点击提交按钮查看运行结果.",
-    "tips": "- 分别给第二三五行的'姓名'，'学校'，'专业'属性添加对应字符串类型的值.\n\r- 给第四行'学号'属性添加对应数字类型的值.",
+    "simple_desc": "javascript中的数据均是六种数据类型undefined，null，number，boolean，string，object中的一种，别的再没有其他类型了。",
+    "desc": "- 前面说过，编程世界只有数据和代码两种元素。\n\r- 在本节的练习内容中，我们要将自己的一些个人信息编写为一个javascript对象。\n\r- 对象的属性包括'姓名'，'学校'，'学号'，'专业'，\n\r- 其中'学号'属性值的类型为数字(number)，并在console中输出学号的值。",
+    "step_desc": "- 将编辑器中定义个人信息的代码补全,注意所写数据值的类型。\n\r- 然后点击提交按钮查看运行结果。",
+    "tips": "- 分别给第二三五行的'姓名'，'学校'，'专业'属性添加对应字符串类型的值。\n\r- 给第四行'学号'属性添加对应数字类型的值。",
     "answer": "- 将1-6行修改成如下形式的代码:\n\r\t\tvar profile = {\n\r\t\t'姓名' : 'Tom',\n\r\t\t'学校' : 'MIT',\n\r\t\t'学号' : 123 ,\n\r\t\t'专业' : 'Maths'\n\r\t\t};",
 
     "project_dir": "/javascript_template",
