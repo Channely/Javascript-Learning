@@ -2,10 +2,10 @@
     "basic": {
         "show_name": "Javascript 基础",
         "id_name":"jsBase",
-        "desc": "Javascript起初作为给非程序人员的编程语言来推广,但它有着和其他编程语言一样或更甚的复杂性.你必需对JavaScript基础有扎实的理解才能用它来撰写比较复杂的程序.",
+        "desc": "Javascript起初作为给非程序人员的编程语言来推广，但它有着和其他编程语言一样或更甚的复杂性.你必需对JavaScript基础有扎实的理解才能用它来撰写比较复杂的程序.",
         "target_effect": {
             "name": "JS Console",
-            "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用,是本站用来助力JS教学练习的一个助手工具,你可以在里面毫无顾虑的操练JS代码,而没有后顾之忧.",
+            "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用，是本站用来助力JS教学练习的一个助手工具，你可以在里面毫无顾虑的操练JS代码，而没有后顾之忧.",
             "href": "/super_show/js_console.html"
         },
         "order": 0,
