@@ -4,8 +4,8 @@
     "point": 200,
 
     "simple_desc": "这是我们本次js学习旅程的第一个程序 - Hello World!",
-    "desc": "- 本节我们学习了如何在console控制台中输出一段字符.\n\r- 右侧的编辑器中给出了日志输出的函数:\n\r\t\tconsole.log();\n\r- 请补齐代码，使提交后在效果预览的窗口中显示字符 \n\r\t\tHello World!",
-    "step_desc": "- 在console.log()的括号中添加字符串 'Hello World!'\n\r- 然后点击 保存并提交 按钮以查看运行结果.",
+    "desc": "- 本节我们学习了如何在console控制台中输出一段字符。\n\r- 右侧的编辑器中给出了日志输出的函数:\n\r\t\tconsole.log();\n\r- 请补齐代码，使提交后在效果预览的窗口中显示字符 \n\r\t\tHello World!",
+    "step_desc": "- 在console.log()的括号中添加字符串 'Hello World!'\n\r- 然后点击 保存并提交 按钮以查看运行结果。",
     "tips": "- 将\n\r\t\tconsole.log();\n\r- 修改成\n\r\t\tconsole.log('Hello World!');",
     "answer": "- 将\n\r\t\tconsole.log();\n\r- 修改成\n\r\t\tconsole.log('Hello World!');",
 
