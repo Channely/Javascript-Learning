@@ -3,9 +3,9 @@
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "函数是由一连串的子程序(一系列语句的集合)所组成的，可以被外部程序调用. 向函数传递参数之后，函数可以返回一定的值.",
-    "desc": "- 函数是由一系列的 JavaScript 语句组成的一个代码块，函数需要被定义.\n\r- 定义时需要指定函数名，并在函数体内写入用来完成指定任务的语句，然后才能调用该函数(通过函数名调用). \n\r- 例如一个获取字符串长度的函数可以如下定义:\n\r\t\tfunction get_length(string) {\n\t\t\tvar length = string.length;\n\t\t\treturn length;\n\t\t}\n\r- 第一行通过关键字 function 定义一个函数，函数名为 get_length ，并设置其传入的参数 string.\n\r- 函数体内的代码语句对参数 string 取长度，返回长度的值 length .\n\r- 调用的方式:\n\r\t\tvar result = get_length('hello');\n\r- 通过函数名调用，并且在调用的同时传入参数值 .将函数的返回值 5 赋给变量 result .",
-    "step_desc": "- 右侧编辑器中，函数 get_type() 的定义代码不完整.\n\r- 请根据注释的提示，补全函数体内的代码.\n\r- 然后点击保存按钮提交并运行代码，并输入你想查询类型的数据.\n\r- 注:获取数据的类型 typeof( your_data )",
+    "simple_desc": "函数是由一连串的子程序(一系列语句的集合)所组成的，可以被外部程序调用。向函数传递参数之后，函数可以返回一定的值。",
+    "desc": "- 函数是由一系列的 JavaScript 语句组成的一个代码块，函数需要被定义。\n\r- 定义时需要指定函数名，并在函数体内写入用来完成指定任务的语句，然后才能调用该函数(通过函数名调用)。 \n\r- 例如一个获取字符串长度的函数可以如下定义:\n\r\t\tfunction get_length(string) {\n\t\t\tvar length = string.length;\n\t\t\treturn length;\n\t\t}\n\r- 第一行通过关键字 function 定义一个函数，函数名为 get_length ，并设置其传入的参数 string。\n\r- 函数体内的代码语句对参数 string 取长度，返回长度的值 length 。\n\r- 调用的方式:\n\r\t\tvar result = get_length('hello');\n\r- 通过函数名调用，并且在调用的同时传入参数值。将函数的返回值 5 赋给变量 result 。",
+    "step_desc": "- 右侧编辑器中，函数 get_type() 的定义代码不完整。\n\r- 请根据注释的提示，补全函数体内的代码。\n\r- 然后点击保存按钮提交并运行代码，并输入你想查询类型的数据。\n\r- 注:获取数据的类型 typeof( your_data )",
     "tips": "- 获取数据类型的方法: typeof(data);\n\r- 定义变量并给变量赋值的方法: var type = value;",
     "answer": "- 在第四行添加代码 \n\r\t\tvar type = typeof(data);",
 
