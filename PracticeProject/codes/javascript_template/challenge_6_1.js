@@ -3,5 +3,5 @@ for (var i =  ; i < 10; i++) {
     if (i % 2 != 0) {
         continue;
     }
-    console.log(i + "是0~10之间的一个偶数.");
+    console.log(i + "是0~10之间的一个偶数。");
 }

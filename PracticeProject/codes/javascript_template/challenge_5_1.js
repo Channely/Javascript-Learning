@@ -10,5 +10,5 @@ if(10 < people && people <= 20){
     console.log("我们去踢足球吧!")
 }
 if(20 < people){
-    console.log("我也不知道该怎么办.")
+    console.log("我也不知道该怎么办。")
 }
