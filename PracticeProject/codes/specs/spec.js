@@ -112,7 +112,7 @@ function index_7_1() {
     return v1 && v2 && v3 && v4;
 }
 
-//================logic method=======================
+//====================logic method=======================
 function pass_game() {
     parent.report(true, "Success!");
 }
