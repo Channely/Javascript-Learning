@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 1,
     "desc_file": true,
-    "code": "var numbers = {a : 2, b : 3};\nfunction get_sum(a, b){\nvar result = a  b;\nreturn result;\n}\nvar sum = get_sum(numbers.a, numbers.b);\nconsole.log(sum);",
+    "code": "var numbers = {a : 2, b : 3};\nfunction get_sum(a, b){\n    var result = a + b;\n    return result;\n}\nvar sum = get_sum(numbers.a, numbers.b);\nconsole.log(sum);",
     "question": {
         "content": "上述代码的输出结果是?",
         "options": ["a + b", "2 + 3", "5"]
