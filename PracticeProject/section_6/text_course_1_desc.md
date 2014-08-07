@@ -16,7 +16,7 @@ for循环最鲜明的特点是将一段代码循环执行指定的次数，
     }
 
 for循环的流程图:
-![for loop](/for_loop.png)
+![for loop](http://course-image.qiniudn.com/js_basic_for_loop.png)
 
 例如: 
 
